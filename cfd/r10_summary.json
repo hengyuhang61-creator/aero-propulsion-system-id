@@ -1,0 +1,1529 @@
+{
+  "status": "SCIENTIFIC_HOLD",
+  "runtime": "STOPPED_AT_FROZEN_MASS_GAP_LIMIT",
+  "states": [
+    {
+      "added_iteration": 0,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.238023,
+          "outlet": -13.878955
+        },
+        "signed_sum": 0.3590680000000006,
+        "denominator": 14.238023,
+        "relative_gap": 0.02521895069280339
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3972803.9,
+          "outlet": -3857476.9,
+          "bottom": 3.4457454e-11,
+          "top": -4.3077955e-12
+        },
+        "signed_sum": 115327.00000000003,
+        "denominator": 3972803.9,
+        "relative_gap": 0.029029119710640646
+      },
+      "wall_area_mean_Pa": {
+        "top": 97414.03,
+        "bottom": 97337.33
+      },
+      "Tmin_K": 213.186777391,
+      "Tmax_K": 284.45312184,
+      "rho_min_kg_m3": 0.697690876804
+    },
+    {
+      "added_iteration": 25,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.238696,
+          "outlet": -13.967375
+        },
+        "signed_sum": 0.2713209999999986,
+        "denominator": 14.238696,
+        "relative_gap": 0.019055185952421387
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3972991.8,
+          "outlet": -3881646.3,
+          "bottom": 6.3610016e-12,
+          "top": 1.7088956e-11
+        },
+        "signed_sum": 91345.50000000003,
+        "denominator": 3972991.8,
+        "relative_gap": 0.022991615537691277
+      },
+      "wall_area_mean_Pa": {
+        "top": 97426.403,
+        "bottom": 97344.766
+      },
+      "Tmin_K": 213.214428665,
+      "Tmax_K": 284.325096235,
+      "rho_min_kg_m3": 0.700402658617
+    },
+    {
+      "added_iteration": 50,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.23993,
+          "outlet": -14.049781
+        },
+        "signed_sum": 0.1901489999999999,
+        "denominator": 14.23993,
+        "relative_gap": 0.013353225753216477
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973335.9,
+          "outlet": -3903821.7,
+          "bottom": 2.4157564e-11,
+          "top": -1.3239529e-11
+        },
+        "signed_sum": 69514.19999999974,
+        "denominator": 3973335.9,
+        "relative_gap": 0.017495173262346064
+      },
+      "wall_area_mean_Pa": {
+        "top": 97465.239,
+        "bottom": 97359.241
+      },
+      "Tmin_K": 213.227974114,
+      "Tmax_K": 283.814134993,
+      "rho_min_kg_m3": 0.700418467762
+    },
+    {
+      "added_iteration": 75,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.241205,
+          "outlet": -14.096588
+        },
+        "signed_sum": 0.14461700000000022,
+        "denominator": 14.241205,
+        "relative_gap": 0.010154828892639366
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973691.7,
+          "outlet": -3916296.5,
+          "bottom": 1.8617912e-12,
+          "top": -8.927808e-12
+        },
+        "signed_sum": 57395.20000000018,
+        "denominator": 3973691.7,
+        "relative_gap": 0.014443797942351738
+      },
+      "wall_area_mean_Pa": {
+        "top": 97513.411,
+        "bottom": 97381.187
+      },
+      "Tmin_K": 213.241145997,
+      "Tmax_K": 283.716249028,
+      "rho_min_kg_m3": 0.700519678381
+    },
+    {
+      "added_iteration": 100,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.242418,
+          "outlet": -14.108357
+        },
+        "signed_sum": 0.13406100000000087,
+        "denominator": 14.242418,
+        "relative_gap": 0.00941279774263056
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3974030.2,
+          "outlet": -3919065.3,
+          "bottom": -1.2647872e-11,
+          "top": -3.9446031e-12
+        },
+        "signed_sum": 54964.90000000036,
+        "denominator": 3974030.2,
+        "relative_gap": 0.013831022220213715
+      },
+      "wall_area_mean_Pa": {
+        "top": 97589.868,
+        "bottom": 97402.584
+      },
+      "Tmin_K": 213.245839926,
+      "Tmax_K": 283.335570552,
+      "rho_min_kg_m3": 0.700609773128
+    },
+    {
+      "added_iteration": 125,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.243589,
+          "outlet": -14.086892
+        },
+        "signed_sum": 0.15669699999999942,
+        "denominator": 14.243589,
+        "relative_gap": 0.011001230097273898
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3974357.0,
+          "outlet": -3912129.8,
+          "bottom": 7.6252172e-12,
+          "top": -4.5588031e-11
+        },
+        "signed_sum": 62227.20000000015,
+        "denominator": 3974357.0,
+        "relative_gap": 0.015657174229693042
+      },
+      "wall_area_mean_Pa": {
+        "top": 97680.947,
+        "bottom": 97421.069
+      },
+      "Tmin_K": 213.246987534,
+      "Tmax_K": 283.369950749,
+      "rho_min_kg_m3": 0.7006973459
+    },
+    {
+      "added_iteration": 150,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.244841,
+          "outlet": -14.052833
+        },
+        "signed_sum": 0.1920079999999995,
+        "denominator": 14.244841,
+        "relative_gap": 0.013479125530428843
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3974706.4,
+          "outlet": -3901225.8,
+          "bottom": 1.0275098e-11,
+          "top": -5.0616908e-11
+        },
+        "signed_sum": 73480.60000000005,
+        "denominator": 3974706.4,
+        "relative_gap": 0.018487051018409827
+      },
+      "wall_area_mean_Pa": {
+        "top": 97800.254,
+        "bottom": 97436.534
+      },
+      "Tmin_K": 213.244631083,
+      "Tmax_K": 283.534243142,
+      "rho_min_kg_m3": 0.700783873785
+    },
+    {
+      "added_iteration": 175,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.24605,
+          "outlet": -14.030703
+        },
+        "signed_sum": 0.2153469999999995,
+        "denominator": 14.24605,
+        "relative_gap": 0.015116260296713792
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975043.6,
+          "outlet": -3893044.4,
+          "bottom": -2.217281e-11,
+          "top": 2.3865892e-11
+        },
+        "signed_sum": 81999.20000000019,
+        "denominator": 3975043.6,
+        "relative_gap": 0.020628503294907303
+      },
+      "wall_area_mean_Pa": {
+        "top": 97896.212,
+        "bottom": 97446.197
+      },
+      "Tmin_K": 213.241496028,
+      "Tmax_K": 284.283578225,
+      "rho_min_kg_m3": 0.700869367093
+    },
+    {
+      "added_iteration": 200,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.246782,
+          "outlet": -14.039113
+        },
+        "signed_sum": 0.20766899999999922,
+        "denominator": 14.246782,
+        "relative_gap": 0.014576554902012203
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975247.8,
+          "outlet": -3893094.0,
+          "bottom": -1.7559965e-11,
+          "top": -2.1099783e-11
+        },
+        "signed_sum": 82153.79999999977,
+        "denominator": 3975247.8,
+        "relative_gap": 0.020666334310027106
+      },
+      "wall_area_mean_Pa": {
+        "top": 97978.174,
+        "bottom": 97449.342
+      },
+      "Tmin_K": 213.240206807,
+      "Tmax_K": 285.274319147,
+      "rho_min_kg_m3": 0.700952884773
+    },
+    {
+      "added_iteration": 225,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.246923,
+          "outlet": -14.087736
+        },
+        "signed_sum": 0.15918700000000108,
+        "denominator": 14.246923,
+        "relative_gap": 0.011173430220687026
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975287.3,
+          "outlet": -3904582.0,
+          "bottom": -4.9441225e-13,
+          "top": 5.7576015e-11
+        },
+        "signed_sum": 70705.29999999987,
+        "denominator": 3975287.3,
+        "relative_gap": 0.017786211326159967
+      },
+      "wall_area_mean_Pa": {
+        "top": 98030.37,
+        "bottom": 97441.225
+      },
+      "Tmin_K": 213.240494771,
+      "Tmax_K": 285.246720785,
+      "rho_min_kg_m3": 0.701035179445
+    },
+    {
+      "added_iteration": 250,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.2469,
+          "outlet": -14.161413
+        },
+        "signed_sum": 0.08548700000000053,
+        "denominator": 14.2469,
+        "relative_gap": 0.0060003930679657005
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975280.8,
+          "outlet": -3923040.0,
+          "bottom": 1.3383722e-11,
+          "top": 2.6615684e-11
+        },
+        "signed_sum": 52240.79999999985,
+        "denominator": 3975280.8,
+        "relative_gap": 0.013141411293511606
+      },
+      "wall_area_mean_Pa": {
+        "top": 98049.273,
+        "bottom": 97419.073
+      },
+      "Tmin_K": 213.242242439,
+      "Tmax_K": 285.576416183,
+      "rho_min_kg_m3": 0.701115940268
+    },
+    {
+      "added_iteration": 275,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.247159,
+          "outlet": -14.248131
+        },
+        "signed_sum": -0.0009720000000008611,
+        "denominator": 14.248131,
+        "relative_gap": 6.82194738384186e-05
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975353.1,
+          "outlet": -3945580.8,
+          "bottom": 6.5824495e-13,
+          "top": -1.7028449e-11
+        },
+        "signed_sum": 29772.300000000265,
+        "denominator": 3975353.1,
+        "relative_gap": 0.007489221523491904
+      },
+      "wall_area_mean_Pa": {
+        "top": 98044.943,
+        "bottom": 97386.528
+      },
+      "Tmin_K": 213.243653887,
+      "Tmax_K": 285.898131153,
+      "rho_min_kg_m3": 0.701192773838
+    },
+    {
+      "added_iteration": 300,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.247709,
+          "outlet": -14.33129
+        },
+        "signed_sum": -0.0835809999999988,
+        "denominator": 14.33129,
+        "relative_gap": 0.005832063966328139
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975506.5,
+          "outlet": -3968543.3,
+          "bottom": -6.1420982e-12,
+          "top": -5.9512563e-11
+        },
+        "signed_sum": 6963.200000000121,
+        "denominator": 3975506.5,
+        "relative_gap": 0.0017515252459026594
+      },
+      "wall_area_mean_Pa": {
+        "top": 98014.247,
+        "bottom": 97348.996
+      },
+      "Tmin_K": 213.24521082,
+      "Tmax_K": 286.05545024,
+      "rho_min_kg_m3": 0.701270351189
+    },
+    {
+      "added_iteration": 325,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.248272,
+          "outlet": -14.383164
+        },
+        "signed_sum": -0.13489200000000068,
+        "denominator": 14.383164,
+        "relative_gap": 0.009378464988649277
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975663.7,
+          "outlet": -3984913.4,
+          "bottom": -1.9365424e-11,
+          "top": 3.4155506e-11
+        },
+        "signed_sum": -9249.699999999706,
+        "denominator": 3984913.4,
+        "relative_gap": 0.002321179677329928
+      },
+      "wall_area_mean_Pa": {
+        "top": 97923.998,
+        "bottom": 97311.173
+      },
+      "Tmin_K": 213.247489486,
+      "Tmax_K": 286.376948088,
+      "rho_min_kg_m3": 0.701351096943
+    },
+    {
+      "added_iteration": 350,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.24872,
+          "outlet": -14.39341
+        },
+        "signed_sum": -0.14468999999999888,
+        "denominator": 14.39341,
+        "relative_gap": 0.010052517089417927
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975788.6,
+          "outlet": -3992149.7,
+          "bottom": -1.4954756e-11,
+          "top": 3.4592665e-11
+        },
+        "signed_sum": -16361.100000000073,
+        "denominator": 3992149.7,
+        "relative_gap": 0.004098318256953158
+      },
+      "wall_area_mean_Pa": {
+        "top": 97757.305,
+        "bottom": 97282.27
+      },
+      "Tmin_K": 213.250580686,
+      "Tmax_K": 287.082762916,
+      "rho_min_kg_m3": 0.701434757262
+    },
+    {
+      "added_iteration": 375,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.249228,
+          "outlet": -14.366574
+        },
+        "signed_sum": -0.1173459999999995,
+        "denominator": 14.366574,
+        "relative_gap": 0.0081679877192711
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975930.3,
+          "outlet": -3988953.3,
+          "bottom": 3.9497189e-11,
+          "top": -3.22236e-11
+        },
+        "signed_sum": -13022.999999999993,
+        "denominator": 3988953.3,
+        "relative_gap": 0.003264766223259619
+      },
+      "wall_area_mean_Pa": {
+        "top": 97565.737,
+        "bottom": 97258.327
+      },
+      "Tmin_K": 213.254787456,
+      "Tmax_K": 286.902773899,
+      "rho_min_kg_m3": 0.701521373749
+    },
+    {
+      "added_iteration": 400,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.250041,
+          "outlet": -14.321209
+        },
+        "signed_sum": -0.07116800000000012,
+        "denominator": 14.321209,
+        "relative_gap": 0.004969412847756089
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3976157.4,
+          "outlet": -3977607.2,
+          "bottom": 2.9547836e-11,
+          "top": -1.9678767e-11
+        },
+        "signed_sum": -1449.8000000002696,
+        "denominator": 3977607.2,
+        "relative_gap": 0.00036449049066490766
+      },
+      "wall_area_mean_Pa": {
+        "top": 97403.08,
+        "bottom": 97228.568
+      },
+      "Tmin_K": 213.259142699,
+      "Tmax_K": 286.258669134,
+      "rho_min_kg_m3": 0.701609927029
+    },
+    {
+      "added_iteration": 425,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.251145,
+          "outlet": -14.268029
+        },
+        "signed_sum": -0.01688400000000101,
+        "denominator": 14.268029,
+        "relative_gap": 0.0011833449455423035
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3976465.2,
+          "outlet": -3960836.1,
+          "bottom": 1.9069412e-11,
+          "top": -2.6983233e-11
+        },
+        "signed_sum": 15629.100000000086,
+        "denominator": 3976465.2,
+        "relative_gap": 0.003930400296222908
+      },
+      "wall_area_mean_Pa": {
+        "top": 97282.253,
+        "bottom": 97190.207
+      },
+      "Tmin_K": 213.261954241,
+      "Tmax_K": 285.654377438,
+      "rho_min_kg_m3": 0.701698318567
+    },
+    {
+      "added_iteration": 450,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.252145,
+          "outlet": -14.195602
+        },
+        "signed_sum": 0.05654300000000134,
+        "denominator": 14.252145,
+        "relative_gap": 0.003967332636596199
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3976744.4,
+          "outlet": -3937804.8,
+          "bottom": -9.4128981e-12,
+          "top": 2.7799489e-11
+        },
+        "signed_sum": 38939.600000000115,
+        "denominator": 3976744.4,
+        "relative_gap": 0.009791828712954274
+      },
+      "wall_area_mean_Pa": {
+        "top": 97167.112,
+        "bottom": 97149.598
+      },
+      "Tmin_K": 213.262733547,
+      "Tmax_K": 285.192688394,
+      "rho_min_kg_m3": 0.70178578813
+    },
+    {
+      "added_iteration": 475,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.252498,
+          "outlet": -14.117435
+        },
+        "signed_sum": 0.13506299999999882,
+        "denominator": 14.252498,
+        "relative_gap": 0.009476444059139586
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3976842.9,
+          "outlet": -3913639.6,
+          "bottom": -5.2221674e-11,
+          "top": -2.164586e-12
+        },
+        "signed_sum": 63203.29999999976,
+        "denominator": 3976842.9,
+        "relative_gap": 0.015892832980654015
+      },
+      "wall_area_mean_Pa": {
+        "top": 97096.899,
+        "bottom": 97117.606
+      },
+      "Tmin_K": 213.261533142,
+      "Tmax_K": 285.086524685,
+      "rho_min_kg_m3": 0.701873203107
+    },
+    {
+      "added_iteration": 500,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.251898,
+          "outlet": -14.053733
+        },
+        "signed_sum": 0.19816500000000126,
+        "denominator": 14.251898,
+        "relative_gap": 0.013904463812469136
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3976675.6,
+          "outlet": -3893941.6,
+          "bottom": 4.4340367e-11,
+          "top": -1.4952863e-11
+        },
+        "signed_sum": 82734.00000000003,
+        "denominator": 3976675.6,
+        "relative_gap": 0.020804814956492813
+      },
+      "wall_area_mean_Pa": {
+        "top": 97079.866,
+        "bottom": 97098.02
+      },
+      "Tmin_K": 213.260069279,
+      "Tmax_K": 284.99502202,
+      "rho_min_kg_m3": 0.70191774863
+    },
+    {
+      "added_iteration": 525,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.250518,
+          "outlet": -13.989439
+        },
+        "signed_sum": 0.26107899999999873,
+        "denominator": 14.250518,
+        "relative_gap": 0.01832066736100391
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3976290.3,
+          "outlet": -3874731.6,
+          "bottom": 1.4073555e-11,
+          "top": -5.8914798e-12
+        },
+        "signed_sum": 101558.69999999974,
+        "denominator": 3976290.3,
+        "relative_gap": 0.025541067763588523
+      },
+      "wall_area_mean_Pa": {
+        "top": 97107.04,
+        "bottom": 97089.976
+      },
+      "Tmin_K": 213.261534678,
+      "Tmax_K": 284.621605919,
+      "rho_min_kg_m3": 0.701950715537
+    },
+    {
+      "added_iteration": 550,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.248919,
+          "outlet": -13.892868
+        },
+        "signed_sum": 0.3560510000000008,
+        "denominator": 14.248919,
+        "relative_gap": 0.02498793066337178
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975844.2,
+          "outlet": -3847295.4,
+          "bottom": 4.8086387e-12,
+          "top": 5.2132401e-12
+        },
+        "signed_sum": 128548.8000000003,
+        "denominator": 3975844.2,
+        "relative_gap": 0.0323324540735274
+      },
+      "wall_area_mean_Pa": {
+        "top": 97172.805,
+        "bottom": 97090.217
+      },
+      "Tmin_K": 213.266212118,
+      "Tmax_K": 284.632132275,
+      "rho_min_kg_m3": 0.701977955085
+    },
+    {
+      "added_iteration": 575,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.247663,
+          "outlet": -13.764958
+        },
+        "signed_sum": 0.4827049999999993,
+        "denominator": 14.247663,
+        "relative_gap": 0.03387959134069912
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975493.7,
+          "outlet": -3811223.4,
+          "bottom": 7.0631241e-11,
+          "top": 1.8078892e-11
+        },
+        "signed_sum": 164270.30000000037,
+        "denominator": 3975493.7,
+        "relative_gap": 0.04132072954863451
+      },
+      "wall_area_mean_Pa": {
+        "top": 97252.944,
+        "bottom": 97103.183
+      },
+      "Tmin_K": 213.270491328,
+      "Tmax_K": 284.745060589,
+      "rho_min_kg_m3": 0.702003694081
+    },
+    {
+      "added_iteration": 600,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.246957,
+          "outlet": -13.617629
+        },
+        "signed_sum": 0.6293279999999992,
+        "denominator": 14.246957,
+        "relative_gap": 0.04417280125152334
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975296.7,
+          "outlet": -3769021.3,
+          "bottom": -2.6600885e-11,
+          "top": -1.4204176e-11
+        },
+        "signed_sum": 206275.40000000034,
+        "denominator": 3975296.7,
+        "relative_gap": 0.05188930929356803
+      },
+      "wall_area_mean_Pa": {
+        "top": 97363.079,
+        "bottom": 97129.006
+      },
+      "Tmin_K": 213.272202126,
+      "Tmax_K": 284.57542272,
+      "rho_min_kg_m3": 0.702029087785
+    },
+    {
+      "added_iteration": 625,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.246667,
+          "outlet": -13.47993
+        },
+        "signed_sum": 0.7667370000000009,
+        "denominator": 14.246667,
+        "relative_gap": 0.053818693172234665
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975215.8,
+          "outlet": -3728855.0,
+          "bottom": -5.8187675e-12,
+          "top": 6.5275176e-12
+        },
+        "signed_sum": 246360.7999999998,
+        "denominator": 3975215.8,
+        "relative_gap": 0.06197419521224479
+      },
+      "wall_area_mean_Pa": {
+        "top": 97472.126,
+        "bottom": 97168.566
+      },
+      "Tmin_K": 213.27300481,
+      "Tmax_K": 283.615253415,
+      "rho_min_kg_m3": 0.702048601711
+    },
+    {
+      "added_iteration": 650,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.246603,
+          "outlet": -13.40165
+        },
+        "signed_sum": 0.8449530000000003,
+        "denominator": 14.246603,
+        "relative_gap": 0.05930908582207283
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975197.8,
+          "outlet": -3705302.5,
+          "bottom": 1.9744955e-11,
+          "top": -9.2193443e-12
+        },
+        "signed_sum": 269895.2999999998,
+        "denominator": 3975197.8,
+        "relative_gap": 0.0678948101651696
+      },
+      "wall_area_mean_Pa": {
+        "top": 97569.483,
+        "bottom": 97219.988
+      },
+      "Tmin_K": 213.274455626,
+      "Tmax_K": 283.272227009,
+      "rho_min_kg_m3": 0.702067631118
+    },
+    {
+      "added_iteration": 675,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.246709,
+          "outlet": -13.41063
+        },
+        "signed_sum": 0.8360789999999998,
+        "denominator": 14.246709,
+        "relative_gap": 0.05868576384904049
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975227.6,
+          "outlet": -3706481.9,
+          "bottom": 1.074828e-11,
+          "top": -2.1222518e-11
+        },
+        "signed_sum": 268745.7000000002,
+        "denominator": 3975227.6,
+        "relative_gap": 0.0676051102080294
+      },
+      "wall_area_mean_Pa": {
+        "top": 97671.463,
+        "bottom": 97255.099
+      },
+      "Tmin_K": 213.276174874,
+      "Tmax_K": 283.094262916,
+      "rho_min_kg_m3": 0.702108001089
+    },
+    {
+      "added_iteration": 700,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.246987,
+          "outlet": -13.517518
+        },
+        "signed_sum": 0.7294689999999999,
+        "denominator": 14.246987,
+        "relative_gap": 0.05120163301896744
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975305.1,
+          "outlet": -3736314.7,
+          "bottom": -3.4277198e-11,
+          "top": 1.74447e-11
+        },
+        "signed_sum": 238990.39999999988,
+        "denominator": 3975305.1,
+        "relative_gap": 0.06011875667102882
+      },
+      "wall_area_mean_Pa": {
+        "top": 97744.299,
+        "bottom": 97255.611
+      },
+      "Tmin_K": 213.276919531,
+      "Tmax_K": 282.967674154,
+      "rho_min_kg_m3": 0.702173728516
+    },
+    {
+      "added_iteration": 725,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.247316,
+          "outlet": -13.725118
+        },
+        "signed_sum": 0.5221979999999995,
+        "denominator": 14.247316,
+        "relative_gap": 0.03665237719160574
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975397.0,
+          "outlet": -3795901.0,
+          "bottom": -1.2513607e-11,
+          "top": -3.9324681e-11
+        },
+        "signed_sum": 179495.99999999994,
+        "denominator": 3975397.0,
+        "relative_gap": 0.04515171692286329
+      },
+      "wall_area_mean_Pa": {
+        "top": 97801.55,
+        "bottom": 97228.966
+      },
+      "Tmin_K": 213.276638076,
+      "Tmax_K": 283.580656152,
+      "rho_min_kg_m3": 0.702247446894
+    },
+    {
+      "added_iteration": 750,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.247429,
+          "outlet": -14.021707
+        },
+        "signed_sum": 0.2257220000000011,
+        "denominator": 14.247429,
+        "relative_gap": 0.01584299876139064
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975428.5,
+          "outlet": -3881609.9,
+          "bottom": 3.5993095e-11,
+          "top": -2.3936727e-11
+        },
+        "signed_sum": 93818.60000000011,
+        "denominator": 3975428.5,
+        "relative_gap": 0.023599619512714193
+      },
+      "wall_area_mean_Pa": {
+        "top": 97857.746,
+        "bottom": 97192.818
+      },
+      "Tmin_K": 213.276284073,
+      "Tmax_K": 284.354169171,
+      "rho_min_kg_m3": 0.702309895063
+    },
+    {
+      "added_iteration": 775,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.247062,
+          "outlet": -14.363402
+        },
+        "signed_sum": -0.116340000000001,
+        "denominator": 14.363402,
+        "relative_gap": 0.008099752412416013
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975326.0,
+          "outlet": -3980359.0,
+          "bottom": -8.9634213e-12,
+          "top": -3.4534929e-11
+        },
+        "signed_sum": -5033.000000000044,
+        "denominator": 3980359.0,
+        "relative_gap": 0.0012644588088662463
+      },
+      "wall_area_mean_Pa": {
+        "top": 97905.671,
+        "bottom": 97158.133
+      },
+      "Tmin_K": 213.276060207,
+      "Tmax_K": 285.076536628,
+      "rho_min_kg_m3": 0.702361109785
+    },
+    {
+      "added_iteration": 800,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.246136,
+          "outlet": -14.683743
+        },
+        "signed_sum": -0.43760699999999986,
+        "denominator": 14.683743,
+        "relative_gap": 0.02980214241014705
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3975067.8,
+          "outlet": -4073296.7,
+          "bottom": -1.2670214e-11,
+          "top": -2.8717649e-11
+        },
+        "signed_sum": -98228.90000000042,
+        "denominator": 4073296.7,
+        "relative_gap": 0.024115331446393388
+      },
+      "wall_area_mean_Pa": {
+        "top": 97920.839,
+        "bottom": 97125.087
+      },
+      "Tmin_K": 213.275697532,
+      "Tmax_K": 285.48081393,
+      "rho_min_kg_m3": 0.702411151572
+    },
+    {
+      "added_iteration": 825,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.244815,
+          "outlet": -14.936989
+        },
+        "signed_sum": -0.6921740000000014,
+        "denominator": 14.936989,
+        "relative_gap": 0.04633959360885928
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3974699.1,
+          "outlet": -4147031.2,
+          "bottom": 5.9844736e-12,
+          "top": 3.5711447e-11
+        },
+        "signed_sum": -172332.10000000006,
+        "denominator": 4147031.2,
+        "relative_gap": 0.04155553495715201
+      },
+      "wall_area_mean_Pa": {
+        "top": 97897.358,
+        "bottom": 97088.722
+      },
+      "Tmin_K": 213.275109191,
+      "Tmax_K": 285.842276661,
+      "rho_min_kg_m3": 0.70246525073
+    },
+    {
+      "added_iteration": 850,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.243394,
+          "outlet": -15.097121
+        },
+        "signed_sum": -0.8537269999999992,
+        "denominator": 15.097121,
+        "relative_gap": 0.05654899367899345
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3974302.6,
+          "outlet": -4194484.7,
+          "bottom": 1.3077149e-11,
+          "top": -2.7400405e-11
+        },
+        "signed_sum": -220182.1000000001,
+        "denominator": 4194484.7,
+        "relative_gap": 0.05249324189929697
+      },
+      "wall_area_mean_Pa": {
+        "top": 97807.088,
+        "bottom": 97060.132
+      },
+      "Tmin_K": 213.274581196,
+      "Tmax_K": 285.942179772,
+      "rho_min_kg_m3": 0.702525289267
+    },
+    {
+      "added_iteration": 875,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.242144,
+          "outlet": -15.168681
+        },
+        "signed_sum": -0.9265369999999997,
+        "denominator": 15.168681,
+        "relative_gap": 0.06108223912151622
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973953.8,
+          "outlet": -4217726.6,
+          "bottom": -2.4417075e-11,
+          "top": -1.7248744e-11
+        },
+        "signed_sum": -243772.79999999984,
+        "denominator": 4217726.6,
+        "relative_gap": 0.05779720288176096
+      },
+      "wall_area_mean_Pa": {
+        "top": 97672.648,
+        "bottom": 97042.906
+      },
+      "Tmin_K": 213.274756295,
+      "Tmax_K": 285.573982553,
+      "rho_min_kg_m3": 0.702585267899
+    },
+    {
+      "added_iteration": 900,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.2412,
+          "outlet": -15.178462
+        },
+        "signed_sum": -0.9372620000000005,
+        "denominator": 15.178462,
+        "relative_gap": 0.06174947105971609
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973690.3,
+          "outlet": -4223980.3,
+          "bottom": 9.4224759e-12,
+          "top": -2.569684e-11
+        },
+        "signed_sum": -250290.00000000003,
+        "denominator": 4223980.3,
+        "relative_gap": 0.05925453771647563
+      },
+      "wall_area_mean_Pa": {
+        "top": 97504.654,
+        "bottom": 97033.742
+      },
+      "Tmin_K": 213.276291016,
+      "Tmax_K": 285.40017323,
+      "rho_min_kg_m3": 0.702643577955
+    },
+    {
+      "added_iteration": 925,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.240545,
+          "outlet": -15.148443
+        },
+        "signed_sum": -0.9078980000000012,
+        "denominator": 15.148443,
+        "relative_gap": 0.05993342022015075
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973507.7,
+          "outlet": -4217161.4,
+          "bottom": 2.0656439e-11,
+          "top": -3.7093543e-11
+        },
+        "signed_sum": -243653.70000000022,
+        "denominator": 4217161.4,
+        "relative_gap": 0.057776707336835674
+      },
+      "wall_area_mean_Pa": {
+        "top": 97332.762,
+        "bottom": 97015.88
+      },
+      "Tmin_K": 213.278328158,
+      "Tmax_K": 285.031543513,
+      "rho_min_kg_m3": 0.702697044792
+    },
+    {
+      "added_iteration": 950,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.240077,
+          "outlet": -15.057814
+        },
+        "signed_sum": -0.817737000000001,
+        "denominator": 15.057814,
+        "relative_gap": 0.054306488312314195
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973377.0,
+          "outlet": -4191185.6,
+          "bottom": -3.9266102e-12,
+          "top": -9.9773789e-12
+        },
+        "signed_sum": -217808.6000000001,
+        "denominator": 4191185.6,
+        "relative_gap": 0.05196825451967579
+      },
+      "wall_area_mean_Pa": {
+        "top": 97182.993,
+        "bottom": 96981.29
+      },
+      "Tmin_K": 213.280353881,
+      "Tmax_K": 284.412625835,
+      "rho_min_kg_m3": 0.702747499966
+    },
+    {
+      "added_iteration": 975,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.239688,
+          "outlet": -14.863745
+        },
+        "signed_sum": -0.6240570000000005,
+        "denominator": 14.863745,
+        "relative_gap": 0.04198517937437709
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973268.6,
+          "outlet": -4134935.9,
+          "bottom": -3.6478248e-11,
+          "top": 3.9385811e-11
+        },
+        "signed_sum": -161667.2999999998,
+        "denominator": 4134935.9,
+        "relative_gap": 0.039097897503078544
+      },
+      "wall_area_mean_Pa": {
+        "top": 97079.757,
+        "bottom": 96933.224
+      },
+      "Tmin_K": 213.281580199,
+      "Tmax_K": 283.940353276,
+      "rho_min_kg_m3": 0.702796034836
+    },
+    {
+      "added_iteration": 1000,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.23933,
+          "outlet": -14.52985
+        },
+        "signed_sum": -0.290519999999999,
+        "denominator": 14.52985,
+        "relative_gap": 0.0199947005646995
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973168.7,
+          "outlet": -4039580.7,
+          "bottom": -3.2454969e-11,
+          "top": 2.9811264e-11
+        },
+        "signed_sum": -66412.0,
+        "denominator": 4039580.7,
+        "relative_gap": 0.01644032015501015
+      },
+      "wall_area_mean_Pa": {
+        "top": 97044.437,
+        "bottom": 96877.151
+      },
+      "Tmin_K": 213.280097915,
+      "Tmax_K": 283.55882607,
+      "rho_min_kg_m3": 0.702844258118
+    },
+    {
+      "added_iteration": 1025,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.239014,
+          "outlet": -14.121538
+        },
+        "signed_sum": 0.11747599999999991,
+        "denominator": 14.239014,
+        "relative_gap": 0.008250290364206393
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973080.4,
+          "outlet": -3923636.0,
+          "bottom": -5.1781267e-12,
+          "top": 3.7202044e-11
+        },
+        "signed_sum": 49444.399999999936,
+        "denominator": 3973080.4,
+        "relative_gap": 0.01244485261360428
+      },
+      "wall_area_mean_Pa": {
+        "top": 97073.19,
+        "bottom": 96828.9
+      },
+      "Tmin_K": 213.277577038,
+      "Tmax_K": 284.478244565,
+      "rho_min_kg_m3": 0.702892646952
+    },
+    {
+      "added_iteration": 1050,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.238764,
+          "outlet": -13.740881
+        },
+        "signed_sum": 0.49788299999999985,
+        "denominator": 14.238764,
+        "relative_gap": 0.03496672885371229
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3973010.7,
+          "outlet": -3815352.8,
+          "bottom": -7.5370789e-12,
+          "top": 2.6990565e-12
+        },
+        "signed_sum": 157657.90000000037,
+        "denominator": 3973010.7,
+        "relative_gap": 0.03968222386111378
+      },
+      "wall_area_mean_Pa": {
+        "top": 97138.967,
+        "bottom": 96798.09
+      },
+      "Tmin_K": 213.275380417,
+      "Tmax_K": 285.115733753,
+      "rho_min_kg_m3": 0.70294157456
+    },
+    {
+      "added_iteration": 1075,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.238576,
+          "outlet": -13.437409
+        },
+        "signed_sum": 0.8011669999999995,
+        "denominator": 14.238576,
+        "relative_gap": 0.05626735426351621
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3972958.2,
+          "outlet": -3727117.7,
+          "bottom": 3.2911663e-11,
+          "top": 9.3087288e-12
+        },
+        "signed_sum": 245840.50000000003,
+        "denominator": 3972958.2,
+        "relative_gap": 0.061878451175247706
+      },
+      "wall_area_mean_Pa": {
+        "top": 97189.581,
+        "bottom": 96791.401
+      },
+      "Tmin_K": 213.273964382,
+      "Tmax_K": 285.920749946,
+      "rho_min_kg_m3": 0.702983306726
+    },
+    {
+      "added_iteration": 1100,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.2384,
+          "outlet": -13.149895
+        },
+        "signed_sum": 1.0885049999999996,
+        "denominator": 14.2384,
+        "relative_gap": 0.07644854758961678
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3972909.0,
+          "outlet": -3641107.0,
+          "bottom": 2.2875611e-11,
+          "top": -2.6652029e-11
+        },
+        "signed_sum": 331802.0,
+        "denominator": 3972909.0,
+        "relative_gap": 0.08351613389584307
+      },
+      "wall_area_mean_Pa": {
+        "top": 97255.633,
+        "bottom": 96816.899
+      },
+      "Tmin_K": 213.273279364,
+      "Tmax_K": 286.902318317,
+      "rho_min_kg_m3": 0.703015574356
+    },
+    {
+      "added_iteration": 1125,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.238166,
+          "outlet": -12.88037
+        },
+        "signed_sum": 1.3577960000000004,
+        "denominator": 14.238166,
+        "relative_gap": 0.09536312471704575
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3972843.9,
+          "outlet": -3559185.1,
+          "bottom": 3.7115971e-11,
+          "top": -3.8293183e-12
+        },
+        "signed_sum": 413658.7999999999,
+        "denominator": 3972843.9,
+        "relative_gap": 0.10412158403706723
+      },
+      "wall_area_mean_Pa": {
+        "top": 97349.44,
+        "bottom": 96875.379
+      },
+      "Tmin_K": 213.273273334,
+      "Tmax_K": 287.397315361,
+      "rho_min_kg_m3": 0.703041594363
+    },
+    {
+      "added_iteration": 1150,
+      "mass_kg_s": {
+        "signed": {
+          "inlet": 14.237832,
+          "outlet": -12.712075
+        },
+        "signed_sum": 1.5257569999999987,
+        "denominator": 14.237832,
+        "relative_gap": 0.10716217188122452
+      },
+      "reported_heat_W": {
+        "signed": {
+          "inlet": 3972750.7,
+          "outlet": -3506717.4,
+          "bottom": -4.4791177e-11,
+          "top": 7.2760159e-12
+        },
+        "signed_sum": 466033.3000000002,
+        "denominator": 3972750.7,
+        "relative_gap": 0.11730746155302425
+      },
+      "wall_area_mean_Pa": {
+        "top": 97484.84,
+        "bottom": 96950.858
+      },
+      "Tmin_K": 213.27368789,
+      "Tmax_K": 287.214908921,
+      "rho_min_kg_m3": 0.703062545474
+    }
+  ],
+  "windows": [
+    {
+      "range": [
+        201,
+        700
+      ],
+      "count": 20,
+      "complete": true,
+      "mass_mean": {
+        "inlet": 14.24868305,
+        "outlet": -14.0001174
+      },
+      "wall_mean_Pa": {
+        "top": 97538.4161,
+        "bottom": 97227.16185
+      },
+      "max_mass_gap": 0.05930908582207283,
+      "max_reported_heat_gap": 0.0678948101651696
+    },
+    {
+      "range": [
+        701,
+        1200
+      ],
+      "count": 18,
+      "complete": false,
+      "mass_mean": {
+        "inlet": 14.241660444444443,
+        "outlet": -14.267624611111112
+      },
+      "wall_mean_Pa": {
+        "top": 97472.17522222223,
+        "bottom": 96988.86544444444
+      },
+      "max_mass_gap": 0.10716217188122452,
+      "max_reported_heat_gap": 0.11730746155302425
+    }
+  ],
+  "last_monitor": {
+    "added_iteration": 1150,
+    "mass_kg_s": {
+      "signed": {
+        "inlet": 14.237832,
+        "outlet": -12.712075
+      },
+      "signed_sum": 1.5257569999999987,
+      "denominator": 14.237832,
+      "relative_gap": 0.10716217188122452
+    },
+    "reported_heat_W": {
+      "signed": {
+        "inlet": 3972750.7,
+        "outlet": -3506717.4,
+        "bottom": -4.4791177e-11,
+        "top": 7.2760159e-12
+      },
+      "signed_sum": 466033.3000000002,
+      "denominator": 3972750.7,
+      "relative_gap": 0.11730746155302425
+    },
+    "wall_area_mean_Pa": {
+      "top": 97484.84,
+      "bottom": 96950.858
+    },
+    "Tmin_K": 213.27368789,
+    "Tmax_K": 287.214908921,
+    "rho_min_kg_m3": 0.703062545474
+  },
+  "last_printed_iteration": 6175,
+  "last_printed_continuity": 2.6098,
+  "safe_saved_checkpoint_added_iteration": 700,
+  "initial_field_datasets_exact_equal": 29,
+  "initial_derived_face_roundoff": [
+    {
+      "dataset": "results/1/phase-1/faces/SV_FLUX/1",
+      "max_abs_difference": 3.5317208142357503e-16,
+      "scale": 1.0,
+      "scaled_difference": 3.5317208142357503e-16
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_HEAT_FLUX/1",
+      "max_abs_difference": 9.85451720225683e-11,
+      "scale": 191325.32977499877,
+      "scaled_difference": 5.150659985191651e-16
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_P/1",
+      "max_abs_difference": 1.367880031466484e-09,
+      "scale": 134889.509259876,
+      "scaled_difference": 1.0140744369016481e-14
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_T/1",
+      "max_abs_difference": 2.24133600568166e-10,
+      "scale": 284.4762006829268,
+      "scaled_difference": 7.878817279972822e-13
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_U/1",
+      "max_abs_difference": 6.845191080628865e-11,
+      "scale": 172.13497124730094,
+      "scaled_difference": 3.9766417195925825e-13
+    }
+  ],
+  "initial_state_audit_correction": "First audit required bitwise identity for every saved face field and failed. All cell states are bitwise identical; native load/report/save recomputed five derived face arrays within scaled 7.9e-13. The explicit 1e-11 scaled readback tolerance is only for derived face arrays, not a science acceptance threshold.",
+  "hypothesis_gate": "NOT_SUPPORTED",
+  "local_divergence_L1_200_ratio_to_control": 1.0113820307814216,
+  "mass_gap_at_200": 0.014576554902012203,
+  "continuity_at_200": 2.5808,
+  "full_energy_qualification": "NOT_ESTABLISHED",
+  "window_gate": "FAIL_SECOND_WINDOW_INCOMPLETE_AND_CONSERVATION_FAILED",
+  "native_end_at_1200_exists": false,
+  "stable_post_cleanup_log_sha256": "59d857c142c089b61cba29e48cf4c93600156c4db904060281ec44db6ca58b0c"
+}

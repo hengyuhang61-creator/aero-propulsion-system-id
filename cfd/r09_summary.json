@@ -1,0 +1,264 @@
+{
+  "control_cfl05": {
+    "log_sha256": "2d91ef885058a833f51161a48867b0916588d3321bca1d4ad5689aad812a7173",
+    "monitor_states": {
+      "START_5000": {
+        "mass_kg_s": {
+          "signed": {
+            "inlet": 14.238023,
+            "outlet": -13.878955
+          },
+          "signed_sum": 0.3590680000000006,
+          "denominator": 14.238023,
+          "relative_gap": 0.02521895069280339
+        },
+        "reported_heat_W": {
+          "signed": {
+            "bottom": 3.4457454e-11,
+            "inlet": 3972803.9,
+            "outlet": -3857476.9,
+            "top": -4.3077955e-12
+          },
+          "signed_sum": 115327.00000000003,
+          "denominator": 3972803.9,
+          "relative_gap": 0.029029119710640646,
+          "native_net": 115326.99,
+          "native_net_roundoff_delta_W": -0.010000000023865141
+        }
+      },
+      "ITER_100": {
+        "mass_kg_s": {
+          "signed": {
+            "inlet": 14.242466,
+            "outlet": -14.093224
+          },
+          "signed_sum": 0.14924200000000098,
+          "denominator": 14.242466,
+          "relative_gap": 0.01047866289447354
+        },
+        "reported_heat_W": {
+          "signed": {
+            "bottom": -3.3173592e-11,
+            "inlet": 3974043.6,
+            "outlet": -3915607.1,
+            "top": -1.0334486e-12
+          },
+          "signed_sum": 58436.49999999996,
+          "denominator": 3974043.6,
+          "relative_gap": 0.014704544258145522,
+          "native_net": 58436.502,
+          "native_net_roundoff_delta_W": 0.0020000000367872417
+        }
+      },
+      "ITER_200": {
+        "mass_kg_s": {
+          "signed": {
+            "inlet": 14.246018,
+            "outlet": -14.04458
+          },
+          "signed_sum": 0.20143799999999956,
+          "denominator": 14.246018,
+          "relative_gap": 0.014139951248131203
+        },
+        "reported_heat_W": {
+          "signed": {
+            "bottom": -5.65473e-12,
+            "inlet": 3975034.8,
+            "outlet": -3894398.0,
+            "top": -2.2315606e-11
+          },
+          "signed_sum": 80636.79999999978,
+          "denominator": 3975034.8,
+          "relative_gap": 0.020285809824859845,
+          "native_net": 80636.822,
+          "native_net_roundoff_delta_W": 0.02200000021548476
+        }
+      }
+    },
+    "new_iterations": 200,
+    "residuals": {
+      "continuity": {
+        "final": 2.529,
+        "first_100_median": 2.2236000000000002,
+        "last_100_median": 2.50885,
+        "minimum": 2.1765,
+        "maximum": 2.5675
+      },
+      "x_velocity": {
+        "final": 0.07395,
+        "first_100_median": 0.0644385,
+        "last_100_median": 0.07274749999999999,
+        "minimum": 0.06339,
+        "maximum": 0.074398
+      },
+      "y_velocity": {
+        "final": 0.3152,
+        "first_100_median": 0.26117,
+        "last_100_median": 0.30233,
+        "minimum": 0.22853,
+        "maximum": 0.32311
+      },
+      "energy": {
+        "final": 2.5143,
+        "first_100_median": 2.20295,
+        "last_100_median": 2.49305,
+        "minimum": 2.1562,
+        "maximum": 2.5524
+      },
+      "k": {
+        "final": 0.0020445,
+        "first_100_median": 0.00200105,
+        "last_100_median": 0.00204485,
+        "minimum": 0.0019639,
+        "maximum": 0.0020499
+      },
+      "omega": {
+        "final": 0.00075376,
+        "first_100_median": 0.000743655,
+        "last_100_median": 0.000755085,
+        "minimum": 0.00072306,
+        "maximum": 0.00077322
+      }
+    },
+    "final_wall_area_mean_pressure_Pa": {
+      "top": 97971.421,
+      "bottom": 97448.8
+    },
+    "status": "SCIENTIFIC_HOLD",
+    "full_energy_budget": "NOT_ESTABLISHED_BY_REPORT_LABEL",
+    "two_500_iteration_windows": "NOT_AVAILABLE",
+    "wall_pressure_stability": "NOT_AVAILABLE_ONE_END_REPORT_ONLY",
+    "units_note": "Native 2D reports kg/s and W; modeled depth convention requires separate qualification."
+  },
+  "test_cfl01": {
+    "log_sha256": "db172d9e3127eadab9101551f8ee1ef3c1685d2f8c4000c6372578fa65f1654f",
+    "monitor_states": {
+      "START_5000": {
+        "mass_kg_s": {
+          "signed": {
+            "inlet": 14.238023,
+            "outlet": -13.878955
+          },
+          "signed_sum": 0.3590680000000006,
+          "denominator": 14.238023,
+          "relative_gap": 0.02521895069280339
+        },
+        "reported_heat_W": {
+          "signed": {
+            "bottom": 3.4457454e-11,
+            "inlet": 3972803.9,
+            "outlet": -3857476.9,
+            "top": -4.3077955e-12
+          },
+          "signed_sum": 115327.00000000003,
+          "denominator": 3972803.9,
+          "relative_gap": 0.029029119710640646,
+          "native_net": 115326.99,
+          "native_net_roundoff_delta_W": -0.010000000023865141
+        }
+      },
+      "ITER_100": {
+        "mass_kg_s": {
+          "signed": {
+            "inlet": 14.238997,
+            "outlet": -13.961112
+          },
+          "signed_sum": 0.2778849999999995,
+          "denominator": 14.238997,
+          "relative_gap": 0.019515770668397464
+        },
+        "reported_heat_W": {
+          "signed": {
+            "bottom": -4.2770235e-12,
+            "inlet": 3973075.7,
+            "outlet": -3879454.2,
+            "top": 2.2270811e-11
+          },
+          "signed_sum": 93621.50000000001,
+          "denominator": 3973075.7,
+          "relative_gap": 0.023563985956773996,
+          "native_net": 93621.46,
+          "native_net_roundoff_delta_W": -0.04000000000814907
+        }
+      },
+      "ITER_200": {
+        "mass_kg_s": {
+          "signed": {
+            "inlet": 14.239927,
+            "outlet": -14.023437
+          },
+          "signed_sum": 0.2164900000000003,
+          "denominator": 14.239927,
+          "relative_gap": 0.015203027375070132
+        },
+        "reported_heat_W": {
+          "signed": {
+            "bottom": -3.2579894e-11,
+            "inlet": 3973335.3,
+            "outlet": -3896398.4,
+            "top": -1.4404296e-11
+          },
+          "signed_sum": 76936.89999999986,
+          "denominator": 3973335.3,
+          "relative_gap": 0.019363304174203438,
+          "native_net": 76936.91,
+          "native_net_roundoff_delta_W": 0.010000000140280463
+        }
+      }
+    },
+    "new_iterations": 200,
+    "residuals": {
+      "continuity": {
+        "final": 2.213,
+        "first_100_median": 2.1898,
+        "last_100_median": 2.2087000000000003,
+        "minimum": 2.1807,
+        "maximum": 2.2305
+      },
+      "x_velocity": {
+        "final": 0.063999,
+        "first_100_median": 0.0637405,
+        "last_100_median": 0.0638425,
+        "minimum": 0.063445,
+        "maximum": 0.064288
+      },
+      "y_velocity": {
+        "final": 0.2616,
+        "first_100_median": 0.24072500000000002,
+        "last_100_median": 0.25417,
+        "minimum": 0.22813,
+        "maximum": 0.26891
+      },
+      "energy": {
+        "final": 2.1921,
+        "first_100_median": 2.1695,
+        "last_100_median": 2.1883999999999997,
+        "minimum": 2.1609,
+        "maximum": 2.2096
+      },
+      "k": {
+        "final": 0.0004274,
+        "first_100_median": 0.00042058000000000004,
+        "last_100_median": 0.000425805,
+        "minimum": 0.00041839,
+        "maximum": 0.00042744
+      },
+      "omega": {
+        "final": 0.00016148,
+        "first_100_median": 0.000159275,
+        "last_100_median": 0.000159975,
+        "minimum": 0.0001563,
+        "maximum": 0.00016148
+      }
+    },
+    "final_wall_area_mean_pressure_Pa": {
+      "top": 97463.636,
+      "bottom": 97355.441
+    },
+    "status": "SCIENTIFIC_HOLD",
+    "full_energy_budget": "NOT_ESTABLISHED_BY_REPORT_LABEL",
+    "two_500_iteration_windows": "NOT_AVAILABLE",
+    "wall_pressure_stability": "NOT_AVAILABLE_ONE_END_REPORT_ONLY",
+    "units_note": "Native 2D reports kg/s and W; modeled depth convention requires separate qualification."
+  }
+}

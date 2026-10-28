@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this software separately from the NASA experiments and referenced papers."
+type: software
+title: "Aero Propulsion System ID: Sajben steady pressure contrast and numerical diagnostics"
+authors:
+  - name: "Aero Propulsion System ID contributors"
+version: 0.1.0
+date-released: 2026-10-28
+repository-code: "https://github.com/hengyuhang61-creator/aero-propulsion-system-id"
+license: MIT
+abstract: "A small reproducible steady wall-pressure comparison; CFD validation and dynamic identification remain on hold."
