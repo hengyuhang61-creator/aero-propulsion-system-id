@@ -14,13 +14,14 @@ Snapshot: 2026-10-28. R01–R07 rows are source-backed historical reports, read 
 | R08 | All wall metrics and 121 point/zone comparison rows match the portable implementation | Two steady measured conditions only; no dynamics or independent surrogate generalization |
 | R09 | Both existing 200-iteration runs audited, including native HDF face fluxes and all three monitor states | Both fail mass/reported-energy criteria; missing full windows and energy decomposition |
 | R10 | One isolated AUSM→Roe-FDS test; matched 200-iteration comparison and bounded extension | Improvement hypothesis not supported; stopped at >10% mass gap; second 500-iteration window incomplete |
+| R11 | Independent NASA numerical/experimental/local pressure comparison; exact stored regional mass reconciliation; two detailed data candidates audited | Full energy unavailable, unique root cause UNKNOWN, no newly qualified experimental set; no new CFD or fitting |
 
 ## Independent status axes
 
 | Axis | Current conclusion |
 |---|---|
 | Software/public source | Runnable stdlib implementation and meaningful synthetic checks; see CI for the exact commit |
-| Data qualification | R08 qualifies for a two-condition steady pressure contrast. It does not qualify for dynamic identification or a credible cross-condition surrogate holdout |
+| Data qualification | R08 qualifies for a two-condition steady pressure contrast. R11 found no obtainable qualified larger static set or synchronized dynamic set; see [R11 eligibility](R11_DATA_ELIGIBILITY.md) |
 | Numerical verification | Sajben 16k case: **SCIENTIFIC_HOLD**; conservation/stability not accepted; grid uncertainty unresolved |
 | Physical validation | Not established for the current CFD or an aerospace reduced-order model |
 | Paper reproduction | R07 Silverbox branch numerical reproduction only; Xu and complete benchmark paper reproduction not established |

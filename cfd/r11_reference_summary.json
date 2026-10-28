@@ -1,0 +1,230 @@
+{
+  "source_sha256": {
+    "sajwpres.data@sources": "ae2541b66d71e7ede514d3572965b00d1ca2510747ba4b8b2fd92690f4f1b167",
+    "p.top.5sst.gen@study3": "a7b7e4306432ed13ed46def94e26e772aaa6756b6ecf0a299da9f4311a649dc2",
+    "p.bot.5sst.gen@study3": "2f7f5daf4616411d8ca4cd75b124b1fbecbc46cb8be166b32c57003a4a779144",
+    "wall_fields.csv@r03_best": "12a9f7fb710f913130366e34b46765826f809baee12ad042141116b7575e0e35",
+    "wall_fields.csv@r09_control": "229961d40cd25eeee90e4c15902227a0a53581fcea5fe35157461e795272d444",
+    "wall_fields.csv@r09_test": "b591fd789a7e2999cf92574542eb13377ca734e54b1ad70097d874851e29f891"
+  },
+  "H_m": 0.04399788,
+  "NASA_p0_psia_inferred_gamma1p4": 19.581242067333836,
+  "NASA_T0_R_inferred_gamma1p4": 525.6002831999999,
+  "NASA_exit_psia": 16.055,
+  "local_p0_psia": 19.58,
+  "local_T0_R": 500.0,
+  "local_exit_psia": 16.05,
+  "experimental_header_T0_K": 300.0,
+  "metrics": {
+    "bottom": {
+      "common_x_H": [
+        -3.751428249136824,
+        8.495605896202221
+      ],
+      "n": 34,
+      "experimental_shock": {
+        "midpoint_x_over_H": 1.487,
+        "interval_x_over_H": [
+          1.415,
+          1.559
+        ],
+        "max_positive_gradient_per_H": 0.5686805555555556
+      },
+      "cases": {
+        "NASA_WIND5_SST": {
+          "vs_experiment": {
+            "rmse": 0.009816823324533286,
+            "mae": 0.006858864336251741,
+            "n": 34
+          },
+          "vs_NASA_numerical": {
+            "rmse": 0.0,
+            "mae": 0.0,
+            "n": 34
+          },
+          "shock": {
+            "midpoint_x_over_H": 1.4508001613132797,
+            "interval_x_over_H": [
+              1.4115413168591175,
+              1.4900590057674417
+            ],
+            "max_positive_gradient_per_H": 0.9226201255691826
+          },
+          "shock_delta_vs_experiment_H": -0.03619983868672039
+        },
+        "r03_best": {
+          "vs_experiment": {
+            "rmse": 0.010538255657014843,
+            "mae": 0.007480941819930722,
+            "n": 34
+          },
+          "vs_NASA_numerical": {
+            "rmse": 0.002028695421508541,
+            "mae": 0.0015971433445851188,
+            "n": 34
+          },
+          "shock": {
+            "midpoint_x_over_H": 1.4900500783880648,
+            "interval_x_over_H": [
+              1.4508000739850426,
+              1.529300082791087
+            ],
+            "max_positive_gradient_per_H": 0.9455779880483521
+          },
+          "shock_delta_vs_experiment_H": 0.003050078388064703
+        },
+        "r09_control": {
+          "vs_experiment": {
+            "rmse": 0.021291467844526624,
+            "mae": 0.016446654700332283,
+            "n": 34
+          },
+          "vs_NASA_numerical": {
+            "rmse": 0.018389599925094504,
+            "mae": 0.010924382924770723,
+            "n": 34
+          },
+          "shock": {
+            "midpoint_x_over_H": 1.4900550721093864,
+            "interval_x_over_H": [
+              1.4704300699078752,
+              1.5096800743108973
+            ],
+            "max_positive_gradient_per_H": 0.9641766955681128
+          },
+          "shock_delta_vs_experiment_H": 0.00305507210938627
+        },
+        "r09_test": {
+          "vs_experiment": {
+            "rmse": 0.019717717004187417,
+            "mae": 0.01585599679526499,
+            "n": 34
+          },
+          "vs_NASA_numerical": {
+            "rmse": 0.016372438192129135,
+            "mae": 0.010254795857369556,
+            "n": 34
+          },
+          "shock": {
+            "midpoint_x_over_H": 1.4900550721093864,
+            "interval_x_over_H": [
+              1.4704300699078752,
+              1.5096800743108973
+            ],
+            "max_positive_gradient_per_H": 0.9636222240107364
+          },
+          "shock_delta_vs_experiment_H": 0.00305507210938627
+        }
+      }
+    },
+    "top": {
+      "common_x_H": [
+        -3.751428249136824,
+        8.495605896202221
+      ],
+      "n": 35,
+      "experimental_shock": {
+        "midpoint_x_over_H": 1.349,
+        "interval_x_over_H": [
+          1.28,
+          1.418
+        ],
+        "max_positive_gradient_per_H": 0.6617391304347836
+      },
+      "cases": {
+        "NASA_WIND5_SST": {
+          "vs_experiment": {
+            "rmse": 0.01557082021670535,
+            "mae": 0.009331251133178082,
+            "n": 35
+          },
+          "vs_NASA_numerical": {
+            "rmse": 0.0,
+            "mae": 0.0,
+            "n": 35
+          },
+          "shock": {
+            "midpoint_x_over_H": 1.4508001613132797,
+            "interval_x_over_H": [
+              1.4115413168591175,
+              1.4900590057674417
+            ],
+            "max_positive_gradient_per_H": 0.8389816475229473
+          },
+          "shock_delta_vs_experiment_H": 0.10180016131327974
+        },
+        "r03_best": {
+          "vs_experiment": {
+            "rmse": 0.01688465950180479,
+            "mae": 0.009587822866820164,
+            "n": 35
+          },
+          "vs_NASA_numerical": {
+            "rmse": 0.003597388567133464,
+            "mae": 0.002333447256423655,
+            "n": 35
+          },
+          "shock": {
+            "midpoint_x_over_H": 1.4900500783880648,
+            "interval_x_over_H": [
+              1.4508000739850426,
+              1.529300082791087
+            ],
+            "max_positive_gradient_per_H": 0.792324799445476
+          },
+          "shock_delta_vs_experiment_H": 0.14105007838806483
+        },
+        "r09_control": {
+          "vs_experiment": {
+            "rmse": 0.030505501315613893,
+            "mae": 0.02156908134716232,
+            "n": 35
+          },
+          "vs_NASA_numerical": {
+            "rmse": 0.02614467785241807,
+            "mae": 0.015714421738177574,
+            "n": 35
+          },
+          "shock": {
+            "midpoint_x_over_H": 1.332960135081172,
+            "interval_x_over_H": [
+              1.3133076480568837,
+              1.35261262210546
+            ],
+            "max_positive_gradient_per_H": 1.3832298894681474
+          },
+          "shock_delta_vs_experiment_H": -0.01603986491882803
+        },
+        "r09_test": {
+          "vs_experiment": {
+            "rmse": 0.030419719327571097,
+            "mae": 0.020504120020164253,
+            "n": 35
+          },
+          "vs_NASA_numerical": {
+            "rmse": 0.025510263963427798,
+            "mae": 0.014850284218152262,
+            "n": 35
+          },
+          "shock": {
+            "midpoint_x_over_H": 1.332960135081172,
+            "interval_x_over_H": [
+              1.3133076480568837,
+              1.35261262210546
+            ],
+            "max_positive_gradient_per_H": 1.39024452020498
+          },
+          "shock_delta_vs_experiment_H": -0.01603986491882803
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Numerical reference is not experimental measurement.",
+    "Local fields fail numerical qualification; agreement cannot validate them.",
+    "Study 3 static input implies T0=525.6002832 R, distinct from local 500 R and experimental 540 R.",
+    "Common dimensionless pressure profiles are a conditional diagnostic, not exact matched-Reynolds validation.",
+    "Fluent wall-face centers and WIND exported stations differ; interpolation uses experimental stations in common coverage only.",
+    "Shock sampling intervals are not statistical confidence intervals."
+  ]
+}

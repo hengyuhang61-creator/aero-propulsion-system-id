@@ -1,0 +1,594 @@
+{
+  "date": "2026-10-28",
+  "downloads": [
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif02/transdif02.html",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif02/transdif02.html",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 19384,
+      "sha256": "c71b9b3ddf15f02ea3f162817a3dd97924c7837054b783d52e202283bda816ee",
+      "archived_relative_file": "study2/index.html"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/transdif03.html",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/transdif03.html",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 20606,
+      "sha256": "0bca4137169a9d6fd58e81c7de2a1f763c6d5229e3366ba361a17a9f9c6cb8eb",
+      "archived_relative_file": "study3/index.html"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/transdif04.html",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/transdif04.html",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 16810,
+      "sha256": "3100fc4e9e527524bd21f2855ef70b67e4cc9d3e080eb772f5d5c2fac3acc98f",
+      "archived_relative_file": "study4/index.html"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/transdif05.html",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/transdif05.html",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 24894,
+      "sha256": "367bad2756e196c98b739b5927ec5c15bc435d86c09ae3b28a4fe48c2a661528",
+      "archived_relative_file": "study5/index.html"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif02/sajben.dat",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif02/sajben.dat",
+      "status": 200,
+      "type": null,
+      "bytes": 785,
+      "sha256": "f30365c690df6ed714f4c9c5221259c03c6d79764e5f1229f9785f317f6e105a",
+      "archived_relative_file": "study2/sajben.dat"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.3sa.dat",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.3sa.dat",
+      "status": 200,
+      "type": null,
+      "bytes": 288,
+      "sha256": "62187513f1d646d1d03467d19f9e8b03c854c3f25ae08bf8d9d5fcf6f103b44b",
+      "archived_relative_file": "study3/run.3sa.dat"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.4sa.dat",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.4sa.dat",
+      "status": 200,
+      "type": null,
+      "bytes": 288,
+      "sha256": "62187513f1d646d1d03467d19f9e8b03c854c3f25ae08bf8d9d5fcf6f103b44b",
+      "archived_relative_file": "study3/run.4sa.dat"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.5sa.dat",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.5sa.dat",
+      "status": 200,
+      "type": null,
+      "bytes": 288,
+      "sha256": "62187513f1d646d1d03467d19f9e8b03c854c3f25ae08bf8d9d5fcf6f103b44b",
+      "archived_relative_file": "study3/run.5sa.dat"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.5sst.dat",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.5sst.dat",
+      "status": 200,
+      "type": null,
+      "bytes": 275,
+      "sha256": "27d0cc10a3deb93200b83998d30c6eb59bd496b9f524f87374e76db3e7ed4e06",
+      "archived_relative_file": "study3/run.5sst.dat"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/cfpost.p.top.com",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/cfpost.p.top.com",
+      "status": 200,
+      "type": null,
+      "bytes": 338,
+      "sha256": "9c2eb9cb234794e3e53f7b21fe94c684700be2d6a519deedfd26e1f7820a9847",
+      "archived_relative_file": "study3/cfpost.p.top.com"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/cfpost.p.bot.com",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/cfpost.p.bot.com",
+      "status": 200,
+      "type": null,
+      "bytes": 335,
+      "sha256": "f1adfc4b6c2832316d58939b762fe5f254ec53fecb0e38b64606486c1e5a8b59",
+      "archived_relative_file": "study3/cfpost.p.bot.com"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.bot.3sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.bot.3sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 2458,
+      "sha256": "dcd397517b28eed962f94938797ec0e1ab1b13bf8d92ca0776269b2143c4f138",
+      "archived_relative_file": "study3/p.bot.3sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.top.3sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.top.3sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 2458,
+      "sha256": "9018a6af0641aedabc40c0ad773695c2b572d267ab4d61b8e8284859a9497e24",
+      "archived_relative_file": "study3/p.top.3sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.bot.4sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.bot.4sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 2458,
+      "sha256": "537cb362a012bd38b43bf60b1bfa9047497f26c920084b6a8864cfa8e816a7d4",
+      "archived_relative_file": "study3/p.bot.4sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.top.4sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.top.4sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 2458,
+      "sha256": "d004ddc89d2f3dce70772a3ae3d368d8afb4253a1f1d76c293f0ed560805e2ba",
+      "archived_relative_file": "study3/p.top.4sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.bot.5sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.bot.5sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 2458,
+      "sha256": "e436c30c51d7acd550c669ae819d7bac92c16a76c70be02c4f2f3879481a6b50",
+      "archived_relative_file": "study3/p.bot.5sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.top.5sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.top.5sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 2458,
+      "sha256": "0b3673f034f27920f8fe8dd9c640239a20d2380fbff27d0c8f9a77ddb28623c5",
+      "archived_relative_file": "study3/p.top.5sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.bot.5sst.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.bot.5sst.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 2458,
+      "sha256": "2f7f5daf4616411d8ca4cd75b124b1fbecbc46cb8be166b32c57003a4a779144",
+      "archived_relative_file": "study3/p.bot.5sst.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.top.5sst.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/p.top.5sst.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 2458,
+      "sha256": "a7b7e4306432ed13ed46def94e26e772aaa6756b6ecf0a299da9f4311a649dc2",
+      "archived_relative_file": "study3/p.top.5sst.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/cfpost.u.11in.com",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/cfpost.u.11in.com",
+      "status": 200,
+      "type": null,
+      "bytes": 310,
+      "sha256": "b20dcbb306420bb678155216373430cf157b6fc6e0a7ef399927383a4d5f364c",
+      "archived_relative_file": "study3/cfpost.u.11in.com"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.03in.3sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.03in.3sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "c0cb605333053c0e3db9ed0d14b254be00e6d2ec57939bf0535b64e942ce40ee",
+      "archived_relative_file": "study3/u.03in.3sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.05in.3sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.05in.3sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "a51f380b6650f2c30adfefafb8440559c4f50587d6b79856e55adecd79af56ec",
+      "archived_relative_file": "study3/u.05in.3sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.08in.3sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.08in.3sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "5fc7a5f653598fa8cdb6c7b08a68fafb1fcf4c8cae7c6145d083d4053b628908",
+      "archived_relative_file": "study3/u.08in.3sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.11in.3sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.11in.3sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "89607a2f2e4d32ed84a8f5ec8ff49375cea8f96ca9d6ca5802bba783c80fb8fb",
+      "archived_relative_file": "study3/u.11in.3sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.03in.4sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.03in.4sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "f88d1e6b5f2292a294f37e4baa7224ed417919400ed34b5d05f94c6f66ba0d18",
+      "archived_relative_file": "study3/u.03in.4sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.05in.4sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.05in.4sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "a147fe3862710e748dbfd59ec638e2716a2aeea8ce99eb879f1a8ab3f0c0324b",
+      "archived_relative_file": "study3/u.05in.4sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.08in.4sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.08in.4sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "e5ee45ce8750e7a342fd1a6a2c36f8a636e5f7825455afd4a834a256ebfdd527",
+      "archived_relative_file": "study3/u.08in.4sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.11in.4sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.11in.4sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "96a1ac2647eec62efabfe9cb808b416002f6996c07234a44268fbed49b61f84e",
+      "archived_relative_file": "study3/u.11in.4sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.03in.5sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.03in.5sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "dd7fe05ab24d5b8f6292fe9b9da91f9ea434e5236b67e6228275abcb20d7e86f",
+      "archived_relative_file": "study3/u.03in.5sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.05in.5sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.05in.5sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "145397c33f123170cd8bd02ce1710a51d0417ec519d685e4864be9e99f2d1264",
+      "archived_relative_file": "study3/u.05in.5sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.08in.5sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.08in.5sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "59b8232fb3308f955e1dbffed7922a5c66b59278d5ff60b7233904ac9a0c0744",
+      "archived_relative_file": "study3/u.08in.5sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.11in.5sa.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.11in.5sa.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "942c9d5c24ffde3b211ba75ee6805e172304130b31e35ec03509ba932cc634f0",
+      "archived_relative_file": "study3/u.11in.5sa.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.03in.5sst.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.03in.5sst.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "cae4e43e68583c94fa081aba8c893ab2650e24d6412b18a0391195d861bc9073",
+      "archived_relative_file": "study3/u.03in.5sst.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.05in.5sst.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.05in.5sst.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "992da6eccbebacc433e51f2774dcbdd50095ecae8e52fd820b13ee378b36a899",
+      "archived_relative_file": "study3/u.05in.5sst.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.08in.5sst.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.08in.5sst.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "8ad33a7298ae5848c0595583d7307c2a28078b124576ef1e7b6e70a755a88be6",
+      "archived_relative_file": "study3/u.08in.5sst.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.11in.5sst.gen",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/u.11in.5sst.gen",
+      "status": 200,
+      "type": null,
+      "bytes": 1589,
+      "sha256": "a843466786778362cd2e5221a989f165c4482ff6e587078a872e1e506bdf4075",
+      "archived_relative_file": "study3/u.11in.5sst.gen"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/sajben_s2u.dat.run1",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/sajben_s2u.dat.run1",
+      "status": 200,
+      "type": "text/plain; charset=UTF-8",
+      "bytes": 3249,
+      "sha256": "eb55b61a14c56f5fcdc70333581bef52c0aaac8ca4c5b1a4c7f7bd77f2f211d4",
+      "archived_relative_file": "study4/sajben_s2u.dat.run1"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/sajben_s2u.dat.run2",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/sajben_s2u.dat.run2",
+      "status": 200,
+      "type": "text/plain; charset=UTF-8",
+      "bytes": 3472,
+      "sha256": "a29475100e976f82a417ba625857dc1fbfaca9ae004360eeb6090dee2804cfa5",
+      "archived_relative_file": "study4/sajben_s2u.dat.run2"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/cfpost.ptop.com",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/cfpost.ptop.com",
+      "status": 200,
+      "type": null,
+      "bytes": 895,
+      "sha256": "460299699c516021ab9e51a2da73bfbb44bb0f5e7084ceceab71d6395d150345",
+      "archived_relative_file": "study4/cfpost.ptop.com"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/cfpost.pbot.com",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/cfpost.pbot.com",
+      "status": 200,
+      "type": null,
+      "bytes": 897,
+      "sha256": "760f9a98af1ae659c998efb0f1d5e16bfd8442bb9cabba585dc4b8f502c28344",
+      "archived_relative_file": "study4/cfpost.pbot.com"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/sajben.tar",
+      "error": "HTTP Error 404: Not Found",
+      "archived_relative_file": "study5/sajben.tar"
+    },
+    {
+      "url": "https://archive.aoe.vt.edu/shosder/main/mdo/21Aug01.html",
+      "final_url": "https://archive.aoe.vt.edu/shosder/main/mdo/21Aug01.html",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 7416,
+      "sha256": "3ee0be75c0242b61540618da4f6bc053ef727b2751a09a659afc6a8588e83994",
+      "archived_relative_file": "vt/21Aug01.html"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/s_2d_sst.dat",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/s_2d_SST.dat",
+      "status": 200,
+      "type": null,
+      "bytes": 599,
+      "sha256": "8b71cff362b9ea2f470378d89310a1b036b8331fe9af0564602d4c2959350494",
+      "archived_relative_file": "study5/s_2d_sst.dat"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_SST.dat",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_SST.dat",
+      "status": 200,
+      "type": null,
+      "bytes": 991,
+      "sha256": "6e66e3e141e33090a588f96cd8039b62fde5e5affa5b50a3696189981efc00c2",
+      "archived_relative_file": "study5/u_SST.dat"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_ext_SST.dat",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_ext_SST.dat",
+      "status": 200,
+      "type": null,
+      "bytes": 1253,
+      "sha256": "e69b26177242035763cb7349e514b48d7d3c89131fe33791cb0c5165c6c8bcb5",
+      "archived_relative_file": "study5/u_ext_SST.dat"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/s_2d_sst.postproc",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/s_2d_SST.postproc",
+      "status": 200,
+      "type": null,
+      "bytes": 2278,
+      "sha256": "6ed1b514bb04bab978ff6f1d1d080117d9d7ed94b9fbfc6ddec3c129459807a9",
+      "archived_relative_file": "study5/s_2d_sst.postproc"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_SST.postproc",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_SST.postproc",
+      "status": 200,
+      "type": null,
+      "bytes": 2344,
+      "sha256": "909d401b82d376ec5c4017da3073566e29fc0c1762a96a113f344eca70427bef",
+      "archived_relative_file": "study5/u_SST.postproc"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_ext_SST.postproc",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_ext_SST.postproc",
+      "status": 200,
+      "type": null,
+      "bytes": 462,
+      "sha256": "ae036867e13f7b991e3750c37d0373d5c164eb7b4b7996775b23d890eea530c2",
+      "archived_relative_file": "study5/u_ext_SST.postproc"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/sajben_s_2d.cgd",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/sajben_s_2d.cgd",
+      "status": 200,
+      "type": null,
+      "bytes": 253952,
+      "sha256": "5375b08640b0829513fae1f84037f407a78e2f79e8105aa6eddfa16fa957b838",
+      "archived_relative_file": "study5/sajben_s_2d.cgd"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_ext_SST.cfl",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_ext_SST.cfl",
+      "status": 200,
+      "type": null,
+      "bytes": 2248704,
+      "sha256": "ac5c62919e9e2d3f38b7c268e05851a27fcabe74fadc604e9d958d738dba2e04",
+      "archived_relative_file": "study5/u_ext_SST.cfl"
+    },
+    {
+      "url": "https://archive.aoe.vt.edu/shosder/main/mdo/",
+      "error": "HTTP Error 404: Not Found",
+      "archived_relative_file": "vt/index.html"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00348-026-04215-0",
+      "final_url": "https://link.springer.com/article/10.1007/s00348-026-04215-0?error=cookies_not_supported&code=5b5b1b84-b213-48f6-be76-1800784f70e5",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 434881,
+      "sha256": "0c06ac6026cd5428b70972ee458be618a70b9faefd0a41d177f57fe04a9fa6ea",
+      "archived_relative_file": "schram2026.html"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00348-025-04156-0",
+      "final_url": "https://link.springer.com/article/10.1007/s00348-025-04156-0?error=cookies_not_supported&code=bf9878fe-dd64-497e-9399-3b8d58d953aa",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 440590,
+      "sha256": "a437e22e47041acd90a51e0b545c3ffca5ba19bf7a7019817615d69084e22311",
+      "archived_relative_file": "restart2026.html"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00348-024-03836-7",
+      "final_url": "https://link.springer.com/article/10.1007/s00348-024-03836-7?error=cookies_not_supported&code=b0e3d7a1-e4b7-4046-938f-2191579b24f2",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 567607,
+      "sha256": "2b4dd377b75124560b9dfca834ead5d469e3170f6cad851a11021ce94b85f8d2",
+      "archived_relative_file": "bustard2024.html"
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/28792508",
+      "final_url": "https://api.figshare.com/v2/articles/28792508",
+      "status": 200,
+      "type": "application/json",
+      "bytes": 19872,
+      "sha256": "f4800d342c0b4c86e85732a735b3add16bf8cf677753e6b18b31b9d1ab3bb3b2",
+      "archived_relative_file": "bustard_metadata.html"
+    },
+    {
+      "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/flu_th/flu_th_sec_hxfer_theory.html",
+      "final_url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/flu_th/flu_th_sec_hxfer_theory.html",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 43002,
+      "sha256": "54f6ea2f80936f0ab3c6a08abe7c0af91ff911e8dbbc96184c52d11100761273",
+      "archived_relative_file": "fluent_energy.html"
+    },
+    {
+      "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/flu_ug/flu_ug_FluxReport.html",
+      "final_url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/flu_ug/flu_ug_FluxReport.html",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 48445,
+      "sha256": "2834a4fc6bb7e9808d9b779b244382107c366b0b7bafb84ed07405034deac8b3",
+      "archived_relative_file": "fluent_flux.html"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/s_2d_SST.lis",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/s_2d_SST.lis",
+      "status": 200,
+      "type": "text/plain; charset=UTF-8",
+      "bytes": 14701326,
+      "sha256": "d7d5bb9a8774fa8a5f8fe7da003cb73e8ad5be39cb378093470d3882c52a9184",
+      "archived_relative_file": "study5/s_2d_SST.lis"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_SST.lis",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_SST.lis",
+      "status": 200,
+      "type": "text/plain; charset=UTF-8",
+      "bytes": 8062193,
+      "sha256": "18e5e6f90782c0af7af540eaf52e7a2a967334c861b336eca0d9d159324eee02",
+      "archived_relative_file": "study5/u_SST.lis"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_ext_SST.lis",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/u_ext_SST.lis",
+      "status": 200,
+      "type": "text/plain; charset=UTF-8",
+      "bytes": 20955115,
+      "sha256": "e7cfed24fd5bb441ecd524a6addd3b1f052b554e15ca13b701dadb2f32518811",
+      "archived_relative_file": "study5/u_ext_SST.lis"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.5sst.lis",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif03/run.5sst.lis",
+      "status": 200,
+      "type": "text/plain; charset=UTF-8",
+      "bytes": 502578,
+      "sha256": "ad89f88bff524cef7655f08434f4590394c724945b336fd489059845eebc13a1",
+      "archived_relative_file": "study3/run.5sst.lis"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/sajben_s2u.lis.run1",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/sajben_s2u.lis.run1",
+      "status": 200,
+      "type": "text/plain; charset=UTF-8",
+      "bytes": 587922,
+      "sha256": "d27f152e08f2d92eb1c3ac18dd1d81c319a33cc6ed627d7f678c4f605700b04d",
+      "archived_relative_file": "study4/sajben_s2u.lis.run1"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/sajben_s2u.lis.run2",
+      "final_url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif04/sajben_s2u.lis.run2",
+      "status": 200,
+      "type": "text/plain; charset=UTF-8",
+      "bytes": 562349,
+      "sha256": "dd43a8df4af33ea0f555166b902ea00547dd6e303d64200854ef0aa3291a953d",
+      "archived_relative_file": "study4/sajben_s2u.lis.run2"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/yufive",
+      "error": "HTTP Error 404: Not Found",
+      "archived_relative_file": "study5/text_export_probe/yufive"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/yueight",
+      "error": "HTTP Error 404: Not Found",
+      "archived_relative_file": "study5/text_export_probe/yueight"
+    },
+    {
+      "url": "https://archive.aoe.vt.edu/shosder/main/caf_revised/caf_revised.pdf",
+      "final_url": "https://archive.aoe.vt.edu/shosder/main/caf_revised/caf_revised.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 1748010,
+      "sha256": "a0bee419ccd1f32cd6b139c9dbf61386dad6cf7c84f2b6d8cb703fb1de63b70d",
+      "archived_relative_file": "vt/caf_revised.pdf"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/presst.lis",
+      "error": "HTTP Error 404: Not Found",
+      "archived_relative_file": "study5/text_export_probe/presst.lis"
+    },
+    {
+      "url": "https://www.grc.nasa.gov/www/wind/valid/transdif/transdif05/pressb.lis",
+      "error": "HTTP Error 404: Not Found",
+      "archived_relative_file": "study5/text_export_probe/pressb.lis"
+    }
+  ],
+  "scope": "Retrieval and source hashes only; raw sources are not mirrored. HTTP outcomes are observations on the audit date."
+}
