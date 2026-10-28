@@ -6,7 +6,9 @@ Freeze geometry, units, inlet conditions, outlet pressure, turbulence/transport 
 
 R09 and R10 fail this gate. The R10 first 200 steps did not support changing AUSM to Roe-FDS as the proposed remedy. Do not infer a unique root cause from a negative test or continue arbitrary CFL/flux scans.
 
-**One next highest-value scientific action:** reconstruct the local mass and complete energy face budgets for the existing x/H>=5 upper-wall cells, aligned to their mesh geometry and boundary terms, to distinguish geometric discretization effects from boundary/energy-accounting errors before specifying another intervention. Use preserved closed checkpoints first. Do not launch the strong case or Xu Stage H.
+R11 completed the stored mass budget and independent NASA pressure comparison. Missing interior energy flux/stress/gradient data block complete energy closure. The local snapshots do not show Study #5-like outlet separation; no causal single intervention is justified. See [R11 decision](R11_CFD_DECISION.md).
+
+**One next highest-value experiment:** qualify the actual two VT/Sajben files claimed to contain 31 experimental backpressure settings, if obtained through an authorized custodian channel. Verify file-level case independence, normalization, geometry and reuse rights before any whole-condition static model comparison. Stop repeating public searches or solver scans if the files remain unavailable; details and the bounded stop are in [data eligibility](R11_DATA_ELIGIBILITY.md). Do not launch the strong case or Xu Stage H.
 
 ## Stage 2: cross-condition static reduced-order/surrogate models — blocked
 

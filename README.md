@@ -7,12 +7,14 @@ A small reproducible study of **NASA Sajben steady wall-pressure response** and 
 | R08 two-condition experimental pressure contrast | Recomputed; bottom shock estimator shift **+0.8585 H**, top **+0.7665 H** |
 | R09 CFL diagnostic | **SCIENTIFIC_HOLD**; both 200-iteration branches fail conservation thresholds |
 | R10 single flux-scheme experiment | **Negative result**; Roe-FDS did not meet the frozen improvement criterion and triggered the 10% mass-gap stop |
+| R11 reference and closed-field audit | NASA numeric reference comparison executed; local mass accounting closes, but R09/R10 conservation fails and full energy is unavailable |
+| R11 data / solver decision | 31-setting VT files not obtained; recent dynamic records not downloadable as numeric series; **NO_NEW_CFD_JUSTIFIED / BLOCKED_BY_DATA** |
 | Aerospace dynamic identification | **HOLD**: no qualified independently excited time series |
 | Xu paper reproduction / innovation | **Not established / UNKNOWN** |
 
 ## Run the reproducible calculation
 
-Requires Python 3.12 or 3.13; the published code uses only the standard library. Synthetic tests require no network, NASA data, Fluent, NumPy, or training.
+Requires Python 3.12 or 3.13. Pressure calculations and synthetic tests use only the standard library; the optional R11 closed-HDF reader additionally requires NumPy/h5py. Synthetic tests require no network, NASA data, Fluent, NumPy, or training.
 
 ```bash
 git clone https://github.com/hengyuhang61-creator/aero-propulsion-system-id.git
@@ -39,11 +41,14 @@ Two steady operating conditions are not replicate experiments. Steady pseudo-tim
 
 ## Evidence and scope
 
-- [R01–R10 status and history](docs/STATUS.md)
+- [R01–R11 status and history](docs/STATUS.md)
 - [Three-stage roadmap and stopping gates](docs/ROADMAP.md)
 - [Sources, upstream audit, and ownership](docs/EVIDENCE.md)
 - [R09 numerical audit](cfd/R09_DIAGNOSTIC.md) and [machine summary](cfd/r09_summary.json)
 - [R10 bounded negative experiment](cfd/R10_FLUX_TEST.md) and [machine summary](cfd/r10_summary.json)
+- [R11 independent reference physics](docs/R11_REFERENCE_PHYSICS_AUDIT.md) and [mass/energy audit](docs/R11_LOCAL_MASS_ENERGY_AUDIT.md)
+- [R11 data eligibility](docs/R11_DATA_ELIGIBILITY.md), [CFD decision](docs/R11_CFD_DECISION.md), [algorithm eligibility](docs/R11_ALGORITHM_ELIGIBILITY.md), and [nearest work](docs/R11_NEAREST_WORK.md)
+- [Reproduce the R11 offline analysis](docs/R11_REPRODUCE.md)
 
 Owners of the completed native R09 logs can independently recompute them:
 

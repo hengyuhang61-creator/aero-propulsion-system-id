@@ -2,6 +2,8 @@
 
 Audit date: 2026-10-28. Links identify sources; a citation alone does not mean its full text or code was audited.
 
+R11 additions: [reference physics and actual source inputs](R11_REFERENCE_PHYSICS_AUDIT.md), [full energy limits](R11_LOCAL_MASS_ENERGY_AUDIT.md), [two-candidate eligibility](R11_DATA_ELIGIBILITY.md), [updated nearest-work matrix](R11_NEAREST_WORK.md), and [retrieval/hash ledger](../data/r11_source_manifest.json). Earlier takeover scopes below remain historical. R11 directly read Study #3 numerical exports and Study #5 inputs/lists; it did not repeat R08–R10 experiments. No new raw third-party datasets or code were redistributed.
+
 ## Official physical sources
 
 | Source | What was checked in this takeover |

@@ -1,0 +1,897 @@
+{
+  "r03_best": {
+    "native_report_mass": {
+      "inlet": 14.23804,
+      "outlet": -14.251113
+    },
+    "mass_replay_minus_native_report_kg_s": {
+      "inlet": 1.7789547612778733e-07,
+      "outlet": -3.3934395204937573e-07
+    },
+    "native_report_heat": {
+      "inlet": 3972808.7,
+      "outlet": -3975703.6,
+      "top": -4.9626675e-12,
+      "bottom": -4.6152143e-11
+    },
+    "saved_heat_sum_minus_report_W": {
+      "inlet": 0.010749208740890026,
+      "outlet": 0.027936080936342478,
+      "top": -2.3633260958978913e-20,
+      "bottom": 2.8309851921609045e-19
+    },
+    "boundary_state_h0_minus_native_report_W": {
+      "inlet": 0.010749208740890026,
+      "outlet": 0.027936080936342478,
+      "top": 4.9626675e-12,
+      "bottom": 4.6152143e-11
+    },
+    "mass_gap": 0.0009173431673148196,
+    "reported_energy_gap": 0.000728138117502423,
+    "energy_inward_net_W": -2894.8613147102806,
+    "mass_inward_net_kg_s": -0.013073161448476256,
+    "hypothetical_298p15K_shift_net_W": 1020.4417050392994,
+    "upstream_signed_outward_divergence": -0.005221157454723898,
+    "downstream": {
+      "cells": 600,
+      "signed_divergence_kg_s": 0.018294318903201337,
+      "crossing_flux_kg_s": 0.018294318903201122,
+      "closure_error_kg_s": 2.1510571102112408e-16,
+      "absolute_divergence_L1_kg_s": 0.1484990929560465,
+      "min_area_m2": 7.434693950798354e-08,
+      "max_edge_ratio": 2093.684777288215,
+      "min_normal_center_cosine": 0.04323362088778841,
+      "min_u_m_s": 1.8465934816037437,
+      "reverse_u_cells": 0
+    },
+    "upper_downstream": {
+      "cells": 120,
+      "signed_divergence_kg_s": 0.013092560024666283,
+      "crossing_flux_kg_s": 0.013092560024666283,
+      "closure_error_kg_s": 0.0,
+      "absolute_divergence_L1_kg_s": 0.054439561638620335,
+      "min_area_m2": 7.533057034235513e-08,
+      "max_edge_ratio": 2060.9437664752268,
+      "min_normal_center_cosine": 0.04323362088778841,
+      "min_u_m_s": 1.8465934816037437,
+      "reverse_u_cells": 0
+    },
+    "outlet_max_Mach_approx": 0.5362299405398442,
+    "cell_SV_H_minus_cpT_range_J_kg": [
+      0.0,
+      0.0
+    ],
+    "walls": {
+      "top": {
+        "faces": 12,
+        "min_adjacent_u_m_s": 1.8465934816037437,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.11948411341197634,
+        "pressure_p_p0_range": [
+          0.7987880203636701,
+          0.820466850283496
+        ],
+        "pressure_total_variation": 0.021678829919825837,
+        "max_adjacent_pressure_jump": 0.0049945691913395596,
+        "gradient_sign_changes": 0,
+        "worst_geometry_face": {
+          "wall": "top",
+          "face_id": "8071",
+          "x_H": "5.7642404951353905",
+          "y_m": "0.06537601042985916",
+          "p_p0": "0.8082100190909286",
+          "adjacent_u_m_s": "2.6118202647024464",
+          "adjacent_v_m_s": "0.09953871114466312",
+          "stored_tangent_shear_raw": "0.18041829313047766",
+          "stored_shear_magnitude_raw": "0.18041829313047766",
+          "cell_area_m2": "8.082517917624987e-08",
+          "edge_ratio": "2060.9437664752268",
+          "normal_center_cosine": "0.04323362088778841",
+          "cell_pressure_Pa": "109109.98897403406",
+          "cell_T_K": "276.52427942986816"
+        }
+      },
+      "bottom": {
+        "faces": 12,
+        "min_adjacent_u_m_s": 4.503102894919844,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.29253950696977804,
+        "pressure_p_p0_range": [
+          0.7921979277027471,
+          0.8191690199977252
+        ],
+        "pressure_total_variation": 0.026971092294978072,
+        "max_adjacent_pressure_jump": 0.004982927228232681,
+        "gradient_sign_changes": 0,
+        "worst_geometry_face": {
+          "wall": "bottom",
+          "face_id": "7989",
+          "x_H": "5.206470263223149",
+          "y_m": "0.0",
+          "p_p0": "0.7921979277027471",
+          "adjacent_u_m_s": "4.503102894919844",
+          "adjacent_v_m_s": "0.019231537960207403",
+          "stored_tangent_shear_raw": "0.29253950696977804",
+          "stored_shear_magnitude_raw": "0.29253950696977804",
+          "cell_area_m2": "7.434693950798354e-08",
+          "edge_ratio": "1888.4657148945284",
+          "normal_center_cosine": "0.23042610049311354",
+          "cell_pressure_Pa": "106945.46496937751",
+          "cell_T_K": "275.962503237265"
+        }
+      }
+    },
+    "native_log_basename": "order2_14000.log",
+    "native_log_sha256": "284e7e6f1a58261b7c6d36757c94e08185a8063a3d98602df27cf60515e0bb89",
+    "snapshot_sha256": {
+      "order2_14000.cas.h5": "efe8349498b102816ba530b385ac58ddc034ecfed84dfa16d09c4eb47f56a7cd",
+      "order2_14000.dat.h5": "da5703ef9c3af066ee066e9c984186b52c0cdcaeeeb72b848f6f84e72a9f7ef6"
+    },
+    "all_regions": {
+      "all": {
+        "cells": 4000,
+        "signed_divergence_kg_s": 0.013073161448477439,
+        "crossing_flux_kg_s": 0.01307316144847689,
+        "closure_error_kg_s": 5.48172618408671e-16,
+        "absolute_divergence_L1_kg_s": 0.48992326040317097,
+        "min_area_m2": 1.5204453126431774e-08,
+        "max_edge_ratio": 2690.9140145394335,
+        "min_normal_center_cosine": 0.02405056682594075,
+        "min_u_m_s": 0.17427001151975394,
+        "reverse_u_cells": 0
+      },
+      "downstream": {
+        "cells": 600,
+        "signed_divergence_kg_s": 0.018294318903201337,
+        "crossing_flux_kg_s": 0.018294318903201122,
+        "closure_error_kg_s": 2.1510571102112408e-16,
+        "absolute_divergence_L1_kg_s": 0.1484990929560465,
+        "min_area_m2": 7.434693950798354e-08,
+        "max_edge_ratio": 2093.684777288215,
+        "min_normal_center_cosine": 0.04323362088778841,
+        "min_u_m_s": 1.8465934816037437,
+        "reverse_u_cells": 0
+      },
+      "upper_downstream": {
+        "cells": 120,
+        "signed_divergence_kg_s": 0.013092560024666283,
+        "crossing_flux_kg_s": 0.013092560024666283,
+        "closure_error_kg_s": 0.0,
+        "absolute_divergence_L1_kg_s": 0.054439561638620335,
+        "min_area_m2": 7.533057034235513e-08,
+        "max_edge_ratio": 2060.9437664752268,
+        "min_normal_center_cosine": 0.04323362088778841,
+        "min_u_m_s": 1.8465934816037437,
+        "reverse_u_cells": 0
+      },
+      "exit_last_H": {
+        "cells": 150,
+        "signed_divergence_kg_s": 0.017848894255988387,
+        "crossing_flux_kg_s": 0.017848894255988595,
+        "closure_error_kg_s": -2.0816681711721685e-16,
+        "absolute_divergence_L1_kg_s": 0.029441390409160044,
+        "min_area_m2": 8.80617290341668e-08,
+        "max_edge_ratio": 2093.684777288215,
+        "min_normal_center_cosine": 0.9999999999992314,
+        "min_u_m_s": 5.149459561936549,
+        "reverse_u_cells": 0
+      }
+    }
+  },
+  "r09_control": {
+    "native_report_mass": {
+      "inlet": 14.246018,
+      "outlet": -14.04458
+    },
+    "mass_replay_minus_native_report_kg_s": {
+      "inlet": 2.792414388608222e-07,
+      "outlet": 4.4425439327255845e-08
+    },
+    "native_report_heat": {
+      "inlet": 3975034.8,
+      "outlet": -3894398.0,
+      "top": -2.2315606e-11,
+      "bottom": -5.65473e-12
+    },
+    "saved_heat_sum_minus_report_W": {
+      "inlet": 0.022638659924268723,
+      "outlet": -0.0011127684265375137,
+      "top": 2.465588528635004e-19,
+      "bottom": -3.422137313246227e-20
+    },
+    "boundary_state_h0_minus_native_report_W": {
+      "inlet": 0.022638659924268723,
+      "outlet": -0.0011127684265375137,
+      "top": 2.2315606e-11,
+      "bottom": 5.65473e-12
+    },
+    "mass_gap": 0.014139973690782305,
+    "reported_energy_gap": 0.020285815124599066,
+    "energy_inward_net_W": 80636.82152589128,
+    "mass_inward_net_kg_s": 0.20143832366687775,
+    "hypothetical_298p15K_shift_net_W": 20307.720561705923,
+    "upstream_signed_outward_divergence": 1.276201535748219,
+    "downstream": {
+      "cells": 2500,
+      "signed_divergence_kg_s": -1.477639859415102,
+      "crossing_flux_kg_s": -1.4776398594151012,
+      "closure_error_kg_s": -6.661338147750939e-16,
+      "absolute_divergence_L1_kg_s": 11.30912780697376,
+      "min_area_m2": 1.7233675991476516e-08,
+      "max_edge_ratio": 2093.684777288224,
+      "min_normal_center_cosine": 0.08336199262169024,
+      "min_u_m_s": 0.9791367440807497,
+      "reverse_u_cells": 0
+    },
+    "upper_downstream": {
+      "cells": 525,
+      "signed_divergence_kg_s": -1.59497189709713,
+      "crossing_flux_kg_s": -1.59497189709713,
+      "closure_error_kg_s": 0.0,
+      "absolute_divergence_L1_kg_s": 5.644080411665058,
+      "min_area_m2": 1.7233675991476516e-08,
+      "max_edge_ratio": 2060.943766479879,
+      "min_normal_center_cosine": 0.08336199262169024,
+      "min_u_m_s": 0.9791367440807497,
+      "reverse_u_cells": 0
+    },
+    "outlet_max_Mach_approx": 0.5108031227120297,
+    "cell_SV_H_minus_cpT_range_J_kg": [
+      0.0,
+      0.0
+    ],
+    "walls": {
+      "top": {
+        "faces": 25,
+        "min_adjacent_u_m_s": 0.9791367440807497,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.06948206619682813,
+        "pressure_p_p0_range": [
+          0.7602694230016113,
+          0.887538478761334
+        ],
+        "pressure_total_variation": 0.3138402258775018,
+        "max_adjacent_pressure_jump": 0.030558478232963537,
+        "gradient_sign_changes": 2,
+        "worst_geometry_face": {
+          "wall": "top",
+          "face_id": "32141",
+          "x_H": "5.69222055589777",
+          "y_m": "0.06525897542238235",
+          "p_p0": "0.7988731646427398",
+          "adjacent_u_m_s": "8.471664903816006",
+          "adjacent_v_m_s": "1.7834337345376035",
+          "stored_tangent_shear_raw": "0.5943330043351596",
+          "stored_shear_magnitude_raw": "0.5943330043351596",
+          "cell_area_m2": "1.9853692070567752e-08",
+          "edge_ratio": "2060.943766479879",
+          "normal_center_cosine": "0.08336199262169024",
+          "cell_pressure_Pa": "107901.97145634226",
+          "cell_T_K": "276.1185637802442"
+        }
+      },
+      "bottom": {
+        "faces": 25,
+        "min_adjacent_u_m_s": 1.8079684659318995,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.13084251216899412,
+        "pressure_p_p0_range": [
+          0.7690615917554094,
+          0.8606472083716908
+        ],
+        "pressure_total_variation": 0.20021498609219024,
+        "max_adjacent_pressure_jump": 0.019901527347260806,
+        "gradient_sign_changes": 4,
+        "worst_geometry_face": {
+          "wall": "bottom",
+          "face_id": "31976",
+          "x_H": "5.008682768609972",
+          "y_m": "0.0",
+          "p_p0": "0.7931198920560545",
+          "adjacent_u_m_s": "13.47677905001289",
+          "adjacent_v_m_s": "-0.20035779430689213",
+          "stored_tangent_shear_raw": "0.8432293861799731",
+          "stored_shear_magnitude_raw": "0.8432293861799731",
+          "cell_area_m2": "1.7425814478193112e-08",
+          "edge_ratio": "1803.8284989821864",
+          "normal_center_cosine": "0.38873244151465897",
+          "cell_pressure_Pa": "107078.15062092635",
+          "cell_T_K": "275.9621787485852"
+        }
+      }
+    },
+    "native_log_basename": "console.log",
+    "native_log_sha256": "2d91ef885058a833f51161a48867b0916588d3321bca1d4ad5689aad812a7173",
+    "snapshot_sha256": {
+      "final_control_cfl05.cas.h5": "d60cabe274ab6823ea815980d098b1464cd5a2158f4c12b70bae5942e5b090af",
+      "final_control_cfl05.dat.h5": "9eedadee66c5f7b49929328b41f8453d927b95a534df5f722e250ae5ab1e97ef"
+    },
+    "all_regions": {
+      "all": {
+        "cells": 16000,
+        "signed_divergence_kg_s": -0.20143832366688283,
+        "crossing_flux_kg_s": -0.2014383236668824,
+        "closure_error_kg_s": -4.163336342344337e-16,
+        "absolute_divergence_L1_kg_s": 14.035042537530973,
+        "min_area_m2": 3.8011132815537335e-09,
+        "max_edge_ratio": 2690.9140145436804,
+        "min_normal_center_cosine": 0.0459273807457037,
+        "min_u_m_s": -0.12714139859516496,
+        "reverse_u_cells": 8
+      },
+      "downstream": {
+        "cells": 2500,
+        "signed_divergence_kg_s": -1.477639859415102,
+        "crossing_flux_kg_s": -1.4776398594151012,
+        "closure_error_kg_s": -6.661338147750939e-16,
+        "absolute_divergence_L1_kg_s": 11.30912780697376,
+        "min_area_m2": 1.7233675991476516e-08,
+        "max_edge_ratio": 2093.684777288224,
+        "min_normal_center_cosine": 0.08336199262169024,
+        "min_u_m_s": 0.9791367440807497,
+        "reverse_u_cells": 0
+      },
+      "upper_downstream": {
+        "cells": 525,
+        "signed_divergence_kg_s": -1.59497189709713,
+        "crossing_flux_kg_s": -1.59497189709713,
+        "closure_error_kg_s": 0.0,
+        "absolute_divergence_L1_kg_s": 5.644080411665058,
+        "min_area_m2": 1.7233675991476516e-08,
+        "max_edge_ratio": 2060.943766479879,
+        "min_normal_center_cosine": 0.08336199262169024,
+        "min_u_m_s": 0.9791367440807497,
+        "reverse_u_cells": 0
+      },
+      "exit_last_H": {
+        "cells": 600,
+        "signed_divergence_kg_s": -0.8538687553226749,
+        "crossing_flux_kg_s": -0.8538687553226748,
+        "closure_error_kg_s": -1.1102230246251565e-16,
+        "absolute_divergence_L1_kg_s": 1.8269099005730804,
+        "min_area_m2": 2.2015432258541595e-08,
+        "max_edge_ratio": 2093.684777288224,
+        "min_normal_center_cosine": 0.9999999999791707,
+        "min_u_m_s": 0.9791367440807497,
+        "reverse_u_cells": 0
+      }
+    }
+  },
+  "r09_test": {
+    "native_report_mass": {
+      "inlet": 14.239927,
+      "outlet": -14.023437
+    },
+    "mass_replay_minus_native_report_kg_s": {
+      "inlet": 3.588556314326752e-07,
+      "outlet": -2.74254560395093e-07
+    },
+    "native_report_heat": {
+      "inlet": 3973335.3,
+      "outlet": -3896398.4,
+      "top": -1.4404296e-11,
+      "bottom": -3.2579894e-11
+    },
+    "saved_heat_sum_minus_report_W": {
+      "inlet": -0.013341214507818222,
+      "outlet": 0.023218573536723852,
+      "top": -4.56724188617717e-20,
+      "bottom": -3.0842384274153194e-19
+    },
+    "boundary_state_h0_minus_native_report_W": {
+      "inlet": -0.013341214507818222,
+      "outlet": 0.023218573536723852,
+      "top": 1.4404296e-11,
+      "bottom": 3.2579894e-11
+    },
+    "mass_gap": 0.015203032933060497,
+    "reported_energy_gap": 0.01936330672513063,
+    "energy_inward_net_W": 76936.90987735889,
+    "mass_inward_net_kg_s": 0.21649008460107133,
+    "hypothetical_298p15K_shift_net_W": 12099.931819292338,
+    "upstream_signed_outward_divergence": -0.01875972686361363,
+    "downstream": {
+      "cells": 2500,
+      "signed_divergence_kg_s": -0.1977303577374558,
+      "crossing_flux_kg_s": -0.19773035773745629,
+      "closure_error_kg_s": 4.996003610813204e-16,
+      "absolute_divergence_L1_kg_s": 10.330021466626174,
+      "min_area_m2": 1.7233675991476516e-08,
+      "max_edge_ratio": 2093.684777288224,
+      "min_normal_center_cosine": 0.08336199262169024,
+      "min_u_m_s": 0.9160222108403235,
+      "reverse_u_cells": 0
+    },
+    "upper_downstream": {
+      "cells": 525,
+      "signed_divergence_kg_s": -0.382198679239716,
+      "crossing_flux_kg_s": -0.38219867923971584,
+      "closure_error_kg_s": -1.6653345369377348e-16,
+      "absolute_divergence_L1_kg_s": 4.659095393515992,
+      "min_area_m2": 1.7233675991476516e-08,
+      "max_edge_ratio": 2060.943766479879,
+      "min_normal_center_cosine": 0.08336199262169024,
+      "min_u_m_s": 0.9160222108403235,
+      "reverse_u_cells": 0
+    },
+    "outlet_max_Mach_approx": 0.5256954506059109,
+    "cell_SV_H_minus_cpT_range_J_kg": [
+      0.0,
+      0.0
+    ],
+    "walls": {
+      "top": {
+        "faces": 25,
+        "min_adjacent_u_m_s": 0.9160222108403235,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.06542106759668714,
+        "pressure_p_p0_range": [
+          0.7119224733998584,
+          0.895252264473484
+        ],
+        "pressure_total_variation": 0.31835874581099644,
+        "max_adjacent_pressure_jump": 0.04024827521108343,
+        "gradient_sign_changes": 3,
+        "worst_geometry_face": {
+          "wall": "top",
+          "face_id": "32141",
+          "x_H": "5.69222055589777",
+          "y_m": "0.06525897542238235",
+          "p_p0": "0.7243838796109527",
+          "adjacent_u_m_s": "1.961802867755192",
+          "adjacent_v_m_s": "-0.48029829290611825",
+          "stored_tangent_shear_raw": "0.13338848274266524",
+          "stored_shear_magnitude_raw": "0.1333884827426652",
+          "cell_area_m2": "1.9853692070567752e-08",
+          "edge_ratio": "2060.943766479879",
+          "normal_center_cosine": "0.08336199262169024",
+          "cell_pressure_Pa": "97796.37322728301",
+          "cell_T_K": "268.42861284153884"
+        }
+      },
+      "bottom": {
+        "faces": 25,
+        "min_adjacent_u_m_s": 1.853852803241989,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.13258401492284067,
+        "pressure_p_p0_range": [
+          0.7482773964246773,
+          0.8476826518376225
+        ],
+        "pressure_total_variation": 0.2188690255693081,
+        "max_adjacent_pressure_jump": 0.020934975651673793,
+        "gradient_sign_changes": 4,
+        "worst_geometry_face": {
+          "wall": "bottom",
+          "face_id": "31976",
+          "x_H": "5.008682768609972",
+          "y_m": "0.0",
+          "p_p0": "0.7531021822435635",
+          "adjacent_u_m_s": "7.732580013085955",
+          "adjacent_v_m_s": "-1.484971245181754",
+          "stored_tangent_shear_raw": "0.4743496498932436",
+          "stored_shear_magnitude_raw": "0.4743496498932436",
+          "cell_area_m2": "1.7425814478193112e-08",
+          "edge_ratio": "1803.8284989821864",
+          "normal_center_cosine": "0.38873244151465897",
+          "cell_pressure_Pa": "101680.47068730625",
+          "cell_T_K": "272.0553536359844"
+        }
+      }
+    },
+    "native_log_basename": "console.log",
+    "native_log_sha256": "db172d9e3127eadab9101551f8ee1ef3c1685d2f8c4000c6372578fa65f1654f",
+    "snapshot_sha256": {
+      "final_test_cfl01.cas.h5": "57bdc970e5676f6504cc62374e51ee99ac03fa2de89b682ac6ed6b36ebae122f",
+      "final_test_cfl01.dat.h5": "903f4a0993f4b6f3c807dba98537bf074342bdb52d91f67648d3d7293d30d748"
+    },
+    "all_regions": {
+      "all": {
+        "cells": 16000,
+        "signed_divergence_kg_s": -0.21649008460106942,
+        "crossing_flux_kg_s": -0.21649008460107177,
+        "closure_error_kg_s": 2.3592239273284576e-15,
+        "absolute_divergence_L1_kg_s": 13.521585669275666,
+        "min_area_m2": 3.8011132815537335e-09,
+        "max_edge_ratio": 2690.9140145436804,
+        "min_normal_center_cosine": 0.0459273807457037,
+        "min_u_m_s": -0.03344331539253333,
+        "reverse_u_cells": 7
+      },
+      "downstream": {
+        "cells": 2500,
+        "signed_divergence_kg_s": -0.1977303577374558,
+        "crossing_flux_kg_s": -0.19773035773745629,
+        "closure_error_kg_s": 4.996003610813204e-16,
+        "absolute_divergence_L1_kg_s": 10.330021466626174,
+        "min_area_m2": 1.7233675991476516e-08,
+        "max_edge_ratio": 2093.684777288224,
+        "min_normal_center_cosine": 0.08336199262169024,
+        "min_u_m_s": 0.9160222108403235,
+        "reverse_u_cells": 0
+      },
+      "upper_downstream": {
+        "cells": 525,
+        "signed_divergence_kg_s": -0.382198679239716,
+        "crossing_flux_kg_s": -0.38219867923971584,
+        "closure_error_kg_s": -1.6653345369377348e-16,
+        "absolute_divergence_L1_kg_s": 4.659095393515992,
+        "min_area_m2": 1.7233675991476516e-08,
+        "max_edge_ratio": 2060.943766479879,
+        "min_normal_center_cosine": 0.08336199262169024,
+        "min_u_m_s": 0.9160222108403235,
+        "reverse_u_cells": 0
+      },
+      "exit_last_H": {
+        "cells": 600,
+        "signed_divergence_kg_s": 0.458009467862018,
+        "crossing_flux_kg_s": 0.4580094678620179,
+        "closure_error_kg_s": 1.1102230246251565e-16,
+        "absolute_divergence_L1_kg_s": 1.385777803545857,
+        "min_area_m2": 2.2015432258541595e-08,
+        "max_edge_ratio": 2093.684777288224,
+        "min_normal_center_cosine": 0.9999999999791707,
+        "min_u_m_s": 0.9160222108403235,
+        "reverse_u_cells": 0
+      }
+    }
+  },
+  "r10_200": {
+    "native_report_mass": {
+      "inlet": 14.246782,
+      "outlet": -14.039113
+    },
+    "mass_replay_minus_native_report_kg_s": {
+      "inlet": -4.168270439919297e-07,
+      "outlet": 4.092185079684896e-07
+    },
+    "native_report_heat": {
+      "inlet": 3975247.8,
+      "outlet": -3893094.0,
+      "top": -2.1099783e-11,
+      "bottom": -1.7559965e-11
+    },
+    "saved_heat_sum_minus_report_W": {
+      "inlet": 0.005638438276946545,
+      "outlet": 0.043255744967609644,
+      "top": 7.098360923096589e-20,
+      "bottom": -3.829951572401648e-20
+    },
+    "boundary_state_h0_minus_native_report_W": {
+      "inlet": 0.005638438276946545,
+      "outlet": 0.043255744967609644,
+      "top": 2.1099783e-11,
+      "bottom": 1.7559965e-11
+    },
+    "mass_gap": 0.014576554794434662,
+    "reported_energy_gap": 0.020666346580370937,
+    "energy_inward_net_W": 82153.84889418301,
+    "mass_inward_net_kg_s": 0.2076689923914632,
+    "hypothetical_298p15K_shift_net_W": 19958.71451730145,
+    "upstream_signed_outward_divergence": 1.2715822755784976,
+    "downstream": {
+      "cells": 2500,
+      "signed_divergence_kg_s": -1.4792512679699559,
+      "crossing_flux_kg_s": -1.4792512679699565,
+      "closure_error_kg_s": 6.661338147750939e-16,
+      "absolute_divergence_L1_kg_s": 11.425027280100124,
+      "min_area_m2": 1.7233675991476516e-08,
+      "max_edge_ratio": 2093.684777288224,
+      "min_normal_center_cosine": 0.08336199262169024,
+      "min_u_m_s": 0.9379658349568413,
+      "reverse_u_cells": 0
+    },
+    "upper_downstream": {
+      "cells": 525,
+      "signed_divergence_kg_s": -1.6389403373477018,
+      "crossing_flux_kg_s": -1.638940337347702,
+      "closure_error_kg_s": 2.220446049250313e-16,
+      "absolute_divergence_L1_kg_s": 5.708321508643449,
+      "min_area_m2": 1.7233675991476516e-08,
+      "max_edge_ratio": 2060.943766479879,
+      "min_normal_center_cosine": 0.08336199262169024,
+      "min_u_m_s": 0.9379658349568413,
+      "reverse_u_cells": 0
+    },
+    "outlet_max_Mach_approx": 0.5123246858464143,
+    "cell_SV_H_minus_cpT_range_J_kg": [
+      0.0,
+      0.0
+    ],
+    "walls": {
+      "top": {
+        "faces": 25,
+        "min_adjacent_u_m_s": 0.9379658349568413,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.06655877263263194,
+        "pressure_p_p0_range": [
+          0.7610086727337921,
+          0.8926577994634421
+        ],
+        "pressure_total_variation": 0.32964165745674057,
+        "max_adjacent_pressure_jump": 0.02991684090996838,
+        "gradient_sign_changes": 3,
+        "worst_geometry_face": {
+          "wall": "top",
+          "face_id": "32141",
+          "x_H": "5.69222055589777",
+          "y_m": "0.06525897542238235",
+          "p_p0": "0.7987147042101698",
+          "adjacent_u_m_s": "8.902087048032035",
+          "adjacent_v_m_s": "1.7091789073431791",
+          "stored_tangent_shear_raw": "0.6249168484837467",
+          "stored_shear_magnitude_raw": "0.6249168484837467",
+          "cell_area_m2": "1.9853692070567752e-08",
+          "edge_ratio": "2060.943766479879",
+          "normal_center_cosine": "0.08336199262169024",
+          "cell_pressure_Pa": "107899.07444430824",
+          "cell_T_K": "276.1242405889587"
+        }
+      },
+      "bottom": {
+        "faces": 25,
+        "min_adjacent_u_m_s": 1.7825835640447711,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.12901455848140014,
+        "pressure_p_p0_range": [
+          0.7691070549395335,
+          0.8615293819748264
+        ],
+        "pressure_total_variation": 0.20236680299625331,
+        "max_adjacent_pressure_jump": 0.01942840039874083,
+        "gradient_sign_changes": 4,
+        "worst_geometry_face": {
+          "wall": "bottom",
+          "face_id": "31976",
+          "x_H": "5.008682768609972",
+          "y_m": "0.0",
+          "p_p0": "0.7930213554991389",
+          "adjacent_u_m_s": "13.507181212969899",
+          "adjacent_v_m_s": "-0.2243116995770413",
+          "stored_tangent_shear_raw": "0.8449691478413385",
+          "stored_shear_magnitude_raw": "0.8449691478413385",
+          "cell_area_m2": "1.7425814478193112e-08",
+          "edge_ratio": "1803.8284989821864",
+          "normal_center_cosine": "0.38873244151465897",
+          "cell_pressure_Pa": "107066.63376179342",
+          "cell_T_K": "275.95396415993866"
+        }
+      }
+    },
+    "native_log_basename": "console.log",
+    "native_log_sha256": "59d857c142c089b61cba29e48cf4c93600156c4db904060281ec44db6ca58b0c",
+    "snapshot_sha256": {
+      "roe_0200.cas.h5": "ab3b63d0ee8c763b681864d20a78af3a414fca22376dceea620f4729cebd7810",
+      "roe_0200.dat.h5": "0f11bb9df4a7be96f5159eb82ffd7b49da901ad637859bfca36f10a986fc63da"
+    },
+    "all_regions": {
+      "all": {
+        "cells": 16000,
+        "signed_divergence_kg_s": -0.20766899239145828,
+        "crossing_flux_kg_s": -0.20766899239146203,
+        "closure_error_kg_s": 3.747002708109903e-15,
+        "absolute_divergence_L1_kg_s": 16.196430635505617,
+        "min_area_m2": 3.8011132815537335e-09,
+        "max_edge_ratio": 2690.9140145436804,
+        "min_normal_center_cosine": 0.0459273807457037,
+        "min_u_m_s": -0.12264517617870967,
+        "reverse_u_cells": 8
+      },
+      "downstream": {
+        "cells": 2500,
+        "signed_divergence_kg_s": -1.4792512679699559,
+        "crossing_flux_kg_s": -1.4792512679699565,
+        "closure_error_kg_s": 6.661338147750939e-16,
+        "absolute_divergence_L1_kg_s": 11.425027280100124,
+        "min_area_m2": 1.7233675991476516e-08,
+        "max_edge_ratio": 2093.684777288224,
+        "min_normal_center_cosine": 0.08336199262169024,
+        "min_u_m_s": 0.9379658349568413,
+        "reverse_u_cells": 0
+      },
+      "upper_downstream": {
+        "cells": 525,
+        "signed_divergence_kg_s": -1.6389403373477018,
+        "crossing_flux_kg_s": -1.638940337347702,
+        "closure_error_kg_s": 2.220446049250313e-16,
+        "absolute_divergence_L1_kg_s": 5.708321508643449,
+        "min_area_m2": 1.7233675991476516e-08,
+        "max_edge_ratio": 2060.943766479879,
+        "min_normal_center_cosine": 0.08336199262169024,
+        "min_u_m_s": 0.9379658349568413,
+        "reverse_u_cells": 0
+      },
+      "exit_last_H": {
+        "cells": 600,
+        "signed_divergence_kg_s": -0.8579948591604916,
+        "crossing_flux_kg_s": -0.8579948591604921,
+        "closure_error_kg_s": 5.551115123125783e-16,
+        "absolute_divergence_L1_kg_s": 1.829566489840647,
+        "min_area_m2": 2.2015432258541595e-08,
+        "max_edge_ratio": 2093.684777288224,
+        "min_normal_center_cosine": 0.9999999999791707,
+        "min_u_m_s": 0.9379658349568413,
+        "reverse_u_cells": 0
+      }
+    }
+  },
+  "r10_700": {
+    "native_report_mass": {
+      "inlet": 14.246987,
+      "outlet": -13.517518
+    },
+    "mass_replay_minus_native_report_kg_s": {
+      "inlet": -4.0635327991367376e-08,
+      "outlet": 3.241727277725204e-07
+    },
+    "native_report_heat": {
+      "inlet": 3975305.1,
+      "outlet": -3736314.7,
+      "top": 1.74447e-11,
+      "bottom": -3.4277198e-11
+    },
+    "saved_heat_sum_minus_report_W": {
+      "inlet": 0.011300821788609028,
+      "outlet": -0.022352101746946573,
+      "top": -2.4530019093275015e-19,
+      "bottom": 4.103201317353164e-19
+    },
+    "boundary_state_h0_minus_native_report_W": {
+      "inlet": 0.011300821788609028,
+      "outlet": -0.022352101746946573,
+      "top": -1.74447e-11,
+      "bottom": 3.4277198e-11
+    },
+    "mass_gap": 0.0512016530665744,
+    "reported_energy_gap": 0.06011875372014304,
+    "energy_inward_net_W": 238990.38894871992,
+    "mass_inward_net_kg_s": 0.7294692835373997,
+    "hypothetical_298p15K_shift_net_W": 20520.411361054168,
+    "upstream_signed_outward_divergence": 0.9532711220164507,
+    "downstream": {
+      "cells": 2500,
+      "signed_divergence_kg_s": -1.6827404055538522,
+      "crossing_flux_kg_s": -1.682740405553852,
+      "closure_error_kg_s": -2.220446049250313e-16,
+      "absolute_divergence_L1_kg_s": 12.44741455436016,
+      "min_area_m2": 1.7233675991476516e-08,
+      "max_edge_ratio": 2093.684777288224,
+      "min_normal_center_cosine": 0.08336199262169024,
+      "min_u_m_s": 1.2387633063953818,
+      "reverse_u_cells": 0
+    },
+    "upper_downstream": {
+      "cells": 525,
+      "signed_divergence_kg_s": -1.1788000277482553,
+      "crossing_flux_kg_s": -1.178800027748255,
+      "closure_error_kg_s": -2.220446049250313e-16,
+      "absolute_divergence_L1_kg_s": 6.100047220956137,
+      "min_area_m2": 1.7233675991476516e-08,
+      "max_edge_ratio": 2060.943766479879,
+      "min_normal_center_cosine": 0.08336199262169024,
+      "min_u_m_s": 1.2387633063953818,
+      "reverse_u_cells": 0
+    },
+    "outlet_max_Mach_approx": 0.5001057339348232,
+    "cell_SV_H_minus_cpT_range_J_kg": [
+      0.0,
+      0.0
+    ],
+    "walls": {
+      "top": {
+        "faces": 25,
+        "min_adjacent_u_m_s": 1.2387633063953818,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.08791050060761071,
+        "pressure_p_p0_range": [
+          0.740919365165057,
+          0.8904270467907097
+        ],
+        "pressure_total_variation": 0.3364445431868549,
+        "max_adjacent_pressure_jump": 0.028354479119916287,
+        "gradient_sign_changes": 4,
+        "worst_geometry_face": {
+          "wall": "top",
+          "face_id": "32141",
+          "x_H": "5.69222055589777",
+          "y_m": "0.06525897542238235",
+          "p_p0": "0.7610784987011558",
+          "adjacent_u_m_s": "7.050045352288466",
+          "adjacent_v_m_s": "1.3775986399990545",
+          "stored_tangent_shear_raw": "0.48914730212608243",
+          "stored_shear_magnitude_raw": "0.4891473021260824",
+          "cell_area_m2": "1.9853692070567752e-08",
+          "edge_ratio": "2060.943766479879",
+          "normal_center_cosine": "0.08336199262169024",
+          "cell_pressure_Pa": "102775.11255375351",
+          "cell_T_K": "272.1327428110828"
+        }
+      },
+      "bottom": {
+        "faces": 25,
+        "min_adjacent_u_m_s": 1.336624460307876,
+        "negative_tangent_shear_count": 0,
+        "min_stored_tangent_shear": 0.09674511795739786,
+        "pressure_p_p0_range": [
+          0.7652557817400201,
+          0.8677720644930395
+        ],
+        "pressure_total_variation": 0.22956686840808316,
+        "max_adjacent_pressure_jump": 0.02016018412037046,
+        "gradient_sign_changes": 4,
+        "worst_geometry_face": {
+          "wall": "bottom",
+          "face_id": "31976",
+          "x_H": "5.008682768609972",
+          "y_m": "0.0",
+          "p_p0": "0.7957100678855482",
+          "adjacent_u_m_s": "14.232401663840383",
+          "adjacent_v_m_s": "-0.336933702326016",
+          "stored_tangent_shear_raw": "0.8903879040131437",
+          "stored_shear_magnitude_raw": "0.8903879040131437",
+          "cell_area_m2": "1.7425814478193112e-08",
+          "edge_ratio": "1803.8284989821864",
+          "normal_center_cosine": "0.38873244151465897",
+          "cell_pressure_Pa": "107439.34659113832",
+          "cell_T_K": "276.1706973886096"
+        }
+      }
+    },
+    "native_log_basename": "console.log",
+    "native_log_sha256": "59d857c142c089b61cba29e48cf4c93600156c4db904060281ec44db6ca58b0c",
+    "snapshot_sha256": {
+      "roe_0700.cas.h5": "ead211e33cfde636692c04d35b6eecb622f2ff1809bb1c9176c9a05922dcb0b4",
+      "roe_0700.dat.h5": "ea21639243d8e11e30eaf8d4c8db74415b15ac916857301db5f0d23d22a79d76"
+    },
+    "all_regions": {
+      "all": {
+        "cells": 16000,
+        "signed_divergence_kg_s": -0.7294692835374015,
+        "crossing_flux_kg_s": -0.7294692835373993,
+        "closure_error_kg_s": -2.220446049250313e-15,
+        "absolute_divergence_L1_kg_s": 16.8807727592679,
+        "min_area_m2": 3.8011132815537335e-09,
+        "max_edge_ratio": 2690.9140145436804,
+        "min_normal_center_cosine": 0.0459273807457037,
+        "min_u_m_s": -0.14793223921193174,
+        "reverse_u_cells": 8
+      },
+      "downstream": {
+        "cells": 2500,
+        "signed_divergence_kg_s": -1.6827404055538522,
+        "crossing_flux_kg_s": -1.682740405553852,
+        "closure_error_kg_s": -2.220446049250313e-16,
+        "absolute_divergence_L1_kg_s": 12.44741455436016,
+        "min_area_m2": 1.7233675991476516e-08,
+        "max_edge_ratio": 2093.684777288224,
+        "min_normal_center_cosine": 0.08336199262169024,
+        "min_u_m_s": 1.2387633063953818,
+        "reverse_u_cells": 0
+      },
+      "upper_downstream": {
+        "cells": 525,
+        "signed_divergence_kg_s": -1.1788000277482553,
+        "crossing_flux_kg_s": -1.178800027748255,
+        "closure_error_kg_s": -2.220446049250313e-16,
+        "absolute_divergence_L1_kg_s": 6.100047220956137,
+        "min_area_m2": 1.7233675991476516e-08,
+        "max_edge_ratio": 2060.943766479879,
+        "min_normal_center_cosine": 0.08336199262169024,
+        "min_u_m_s": 1.2387633063953818,
+        "reverse_u_cells": 0
+      },
+      "exit_last_H": {
+        "cells": 600,
+        "signed_divergence_kg_s": -1.8939598790839796,
+        "crossing_flux_kg_s": -1.8939598790839791,
+        "closure_error_kg_s": -4.440892098500626e-16,
+        "absolute_divergence_L1_kg_s": 2.8359457582145664,
+        "min_area_m2": 2.2015432258541595e-08,
+        "max_edge_ratio": 2093.684777288224,
+        "min_normal_center_cosine": 0.9999999999791707,
+        "min_u_m_s": 1.2387633063953818,
+        "reverse_u_cells": 0
+      }
+    }
+  }
+}
