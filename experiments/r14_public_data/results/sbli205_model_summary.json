@@ -1,0 +1,80 @@
+{
+  "n_cases": 45,
+  "h_levels": [
+    0.11,
+    0.28,
+    0.48,
+    0.66,
+    0.89
+  ],
+  "x_levels": [
+    -75.2,
+    -69.2,
+    -63.2,
+    -60.2,
+    -57.2,
+    -54.2,
+    -51.2,
+    -48.2,
+    -42.2
+  ],
+  "target_ranges": {
+    "dx_scp": [
+      -4.764168560584974,
+      0.3558441955281641
+    ],
+    "dy_scp": [
+      -0.17509960826748472,
+      1.3761918472573413
+    ]
+  },
+  "best_model_by_scheme": {
+    "LOGO_h_bump|dx_scp": "gpr",
+    "LOGO_h_bump|dy_scp": "gpr",
+    "LOGO_x_bump|dx_scp": "poly3",
+    "LOGO_x_bump|dy_scp": "interp"
+  },
+  "h0_consistency": {
+    "poly2": {
+      "dx_scp": {
+        "pred_at_h0_1mm": -0.5962805491392158,
+        "method": "ols_quadratic"
+      },
+      "dy_scp": {
+        "pred_at_h0_1mm": 0.26171127586236387,
+        "method": "ols_quadratic"
+      }
+    },
+    "poly3": {
+      "dx_scp": {
+        "pred_at_h0_1mm": 0.11339240480865453,
+        "method": "ols_cubic"
+      },
+      "dy_scp": {
+        "pred_at_h0_1mm": 0.16170647002509375,
+        "method": "ols_cubic"
+      }
+    },
+    "interp": {
+      "dx_scp": {
+        "pred_at_h0_1mm": 0.3558441955281641,
+        "method": "linear+nearest_fallback"
+      },
+      "dy_scp": {
+        "pred_at_h0_1mm": -0.01628900487031515,
+        "method": "linear+nearest_fallback"
+      }
+    },
+    "gpr": {
+      "dx_scp": {
+        "pred_at_h0_1mm": 0.629764062963927,
+        "method": "gpr_matern52"
+      },
+      "dy_scp": {
+        "pred_at_h0_1mm": -0.04358898339746775,
+        "method": "gpr_matern52"
+      }
+    }
+  },
+  "note": "Polynomial baselines are reconstructed; Campo (2014) ch.4 does not publish a closed-form response surface for dx_scp/dy_scp."
+}

@@ -15,3 +15,7 @@ results/
 .env.*
 *.key
 *.pem
+
+# R14: compact result tables are part of the deliverable (no raw data, no large binaries)
+!experiments/r14_public_data/results/
+!experiments/r14_public_data/results/**
