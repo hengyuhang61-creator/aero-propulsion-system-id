@@ -4,6 +4,10 @@
 **生成时间：** 2026-10-31
 **状态：** `PARTIAL_DELIVERED`（数据与建模完成；视频与 CFD 未完成，均有阻断证据）
 
+**GitHub：** 分支 `r14-public-data-experiments` 已推送到 fork `yuhangheng/aero-propulsion-system-id`；
+PR #2 已创建至 `hengyuhang61-creator/aero-propulsion-system-id`。直接推送被拒（当前账号对该仓库 `push: false`），未绕过权限。
+本地仓库检出：`C:\Work\research\aero_propulsion_system_id_r14`
+
 ---
 
 ## 1. 三十秒上手

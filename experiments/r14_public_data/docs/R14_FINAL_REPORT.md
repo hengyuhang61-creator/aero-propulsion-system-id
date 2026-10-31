@@ -3,7 +3,25 @@
 **执行日期：** 2026-10-31
 **研究目录：** `C:\Work\research\aviation_algorithm_r14_public_data_20261031`
 **GitHub 分支：** `r14-public-data-experiments`
+**GitHub 交付路径：** fork `yuhangheng/aero-propulsion-system-id` → PR #2 至 `hengyuhang61-creator/aero-propulsion-system-id`
 **执行方式：** 本会话本体直接执行，无子代理、无委派
+
+### 关于 GitHub 推送权限（如实记录）
+
+直接向 `hengyuhang61-creator/aero-propulsion-system-id` 推送被拒绝：
+
+```
+remote: Permission to hengyuhang61-creator/aero-propulsion-system-id.git denied to yuhangheng.
+fatal: unable to access '...': The requested URL returned error: 403
+```
+
+`gh api` 显示当前账号权限为 `{"admin":false,"maintain":false,"pull":true,"push":false}`。
+未绕过该限制，改用标准 fork 流程：推送到 `yuhangheng/aero-propulsion-system-id`
+的 `r14-public-data-experiments` 分支，并已创建 PR #2
+（https://github.com/hengyuhang61-creator/aero-propulsion-system-id/pull/2）。
+
+**若需要分支直接落在原仓库**，最短人工路径是：仓库所有者在该仓库 Settings → Collaborators
+中给 `yuhangheng` 写权限，或直接在 PR #2 页面 merge。
 
 ---
 
